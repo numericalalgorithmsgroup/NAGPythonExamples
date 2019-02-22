@@ -34,11 +34,11 @@ python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginte
 
 Before you can use the NAG Library for Python, you'll need a license.  Free trial licenses are available!
 
-Run the following command to begin the licensing process and email [support@nag.co.uk](mailto:support@nag.co.uk?subject=License for NAG Library for Python) if you have any problems.
+Run the following command to begin the licensing process and email [support@nag.co.uk](mailto:support@nag.co.uk) if you have any problems.
 
 ```
 # This will launch a license request GUI on windows
-# On Mac and Linux, it gives the information you need to send to support@nag.co.uk in order to request a trial license
+# On Mac and Linux, it gives the information you need to send to support@nag.co.uk to request a trial license
 python -m naginterfaces.kusari
 ```
 
