@@ -44,3 +44,56 @@ python -m naginterfaces.kusari
 
 * More detailed installation instructions are [available in the official documentation](https://www.nag.co.uk/numeric/py/nagdoc_latest/readme.html#installation).
 * More detailed license management instructions are available at [https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
+
+**Official documentation links** 
+
+The following links take you to the relevant section in the official documentation
+
+* [library.anova](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.anova.html) - Analysis of Variance
+* [library.blas](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blas.html) - Basic linear algebra
+* [library.blast](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blast.html) - Further Linear Algebra Support Routines
+* [library.blgm](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blgm.html) - Linear Model Specification
+* library.complex
+* library.contab
+* library.correg
+* library.det
+* library.dot
+* library.eigen
+* library.fit
+* library.glopt
+* library.ieee
+* library.info
+* library.inteq
+* library.interp
+* library.lapackeig
+* library.lapacklin
+* library.linsys
+* library.machine
+* library.math
+* library.matop
+* library.mesh
+* library.mip
+* library.mv
+* library.nonpar
+* library.numdiff
+* library.ode
+* library.omp
+* library.opt
+* library.orthog
+* library.pde
+* library.quad
+* library.rand
+* library.roots
+* library.smooth
+* library.sort
+* library.sparseig
+* library.sparse
+* library.specfun
+* library.stat
+* library.sum
+* library.surviv
+* library.tsa
+* library.univar
+* library.wav
+* library.zeros
+* library.examples
