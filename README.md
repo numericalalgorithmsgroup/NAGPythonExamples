@@ -60,13 +60,13 @@ The following links take you to the relevant section in the official documentati
 * [library.det](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.det.html) - Determinants
 * [library.dot](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.dot.html) - Inner Products
 * [library.eigen](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.eigen.html) - Eigenvalues and Eigenvectors
-* library.fit
-* library.glopt
-* library.ieee
-* library.info
-* library.inteq
-* library.interp
-* library.lapackeig
+* [library.fit](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.fit.html) - Curve and Surface Fitting
+* [library.glopt](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.glopt.html) - Global Optimisation of a function
+* [library.ieee](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.ieee.html) - IEEE Arithmetic
+* [library.info](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.info.html) - Library identification
+* [library.inteq](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.inteq.html) - Integral Equations
+* [library.interp](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.interp.html) - Interpolation
+* [library.lapackeig](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.lapackeig.html) - Least Squares and Eigenvalue Problems (LAPACK)
 * library.lapacklin
 * library.linsys
 * library.machine
