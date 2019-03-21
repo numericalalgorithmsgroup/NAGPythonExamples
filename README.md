@@ -56,10 +56,10 @@ The following links take you to the relevant section in the official documentati
 * [library.blgm](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blgm.html) - Linear Model Specification
 * [library.complex](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.complex.html#module-naginterfaces.library.complex) - Complex Arithmetic
 * [library.contab](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.contab.html) - Contingency Table Analysis
-* library.correg
-* library.det
-* library.dot
-* library.eigen
+* [library.correg](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.correg.html) - Correlation and Regression Analysis
+* [library.det](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.det.html) - Determinants
+* [library.dot](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.dot.html) - Inner Products
+* [library.eigen](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.eigen.html) - Eigenvalues and Eigenvectors
 * library.fit
 * library.glopt
 * library.ieee
