@@ -86,13 +86,14 @@ The following links take you to the relevant section in the official documentati
 * library.rand
 * library.roots
 * library.smooth
-* library.sort
-* library.sparseig
-* library.sparse
-* library.specfun
-* library.stat
-* library.sum
-* library.surviv
-* library.tsa
-* library.univar
-* library.wav
+* [library.sort](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sort.html) - Sorting and Searching
+* [library.sparseig](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sparseig.html) - Large Scale Eigenproblems
+* [library.sparse](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sparse.html) - Large Scale Linear Systems
+* [library.specfun](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.specfun.html) - Approximations of Special Functions
+* [library.stat](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.stat.html) - Simple Calculations on Statistical Data
+* [library.sum](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sum.html) - Summation of Series
+* [library.surviv](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.surviv.html) - Survival Analysis
+* [library.tsa](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.tsa.html) - Time Series Analysis
+* [library.univar](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.univar.html) - Univariate Estimation
+* [library.wav](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.wav.html) - Wavelet Transforms
+* [library.zeros](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.zeros.html) - Zeros of Polynomials
