@@ -70,17 +70,17 @@ The following links take you to the relevant section in the official documentati
 * [library.lapacklin](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.lapacklin.html) - Linear Equations (LAPACK)
 * [library.linsys](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.linsys.html) - Simultaneous Linear Equations
 * [library.machine](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.machine.html) - Machine Constants
-* library.math
-* library.matop
-* library.mesh
-* library.mip
-* library.mv
-* library.nonpar
-* library.numdiff
-* library.ode
-* library.omp
-* library.opt
-* library.orthog
+* [library.math](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.math.html) - Mathematical Constants
+* [library.matop](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.matop.html) - Matrix Operations, Including Inversion
+* [library.mesh](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.mesh.html) - Mesh generation
+* [library.mip](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.mip.html) - Operations Research
+* [library.mv](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.mv.html) - Multivariate Methods
+* [library.nonpar](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.nonpar.html) - Nonparametric Statistics
+* [library.numdiff](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.numdiff.html) - Numerical Differentiation
+* [library.ode](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.ode.html) - Ordinary Differential Equations
+* [library.omp](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.omp.html) - OpenMP Utilities
+* [library.opt](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html) - Local Optimisation
+* [library.orthog](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.orthog.html) - Orthogonalization
 * [library.pde](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.pde.html) - Partial Differential Equations
 * [library.quad](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.quad.html) - Quadrature
 * [library.rand](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.rand.html) - Random Number Generators (pseudorandom and quasi-random numbers from various distributions and models)
