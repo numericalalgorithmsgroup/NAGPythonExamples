@@ -67,9 +67,9 @@ The following links take you to the relevant section in the official documentati
 * [library.inteq](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.inteq.html) - Integral Equations
 * [library.interp](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.interp.html) - Interpolation
 * [library.lapackeig](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.lapackeig.html) - Least Squares and Eigenvalue Problems (LAPACK)
-* library.lapacklin
-* library.linsys
-* library.machine
+* [library.lapacklin](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.lapacklin.html) - Linear Equations (LAPACK)
+* [library.linsys](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.linsys.html) - Simultaneous Linear Equations
+* [library.machine](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.machine.html) - Machine Constants
 * library.math
 * library.matop
 * library.mesh
@@ -81,7 +81,7 @@ The following links take you to the relevant section in the official documentati
 * library.omp
 * library.opt
 * library.orthog
-* library.pde
+* [library.pde](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.pde.html) - Partial Differential Equations
 * [library.quad](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.quad.html) - Quadrature
 * [library.rand](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.rand.html) - Random Number Generators (pseudorandom and quasi-random numbers from various distributions and models)
 * [library.roots](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.roots.html) - Roots of One or More Transcendental Equations
