@@ -95,5 +95,3 @@ The following links take you to the relevant section in the official documentati
 * library.tsa
 * library.univar
 * library.wav
-* library.zeros
-* library.examples
