@@ -19,8 +19,6 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 * [Random number generation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/random_number_generation)
 * [Time series analysis](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/time_series_analysis)
 
-
-
 ## NAG library for Python installation
 
 The NAG library for Python comes in two versions. One is linked to the Intel MKL for improved linear algebra performance on x86 architectures and the other is linked to NAG's self contained linear algebra libraries.
@@ -56,8 +54,8 @@ The following links take you to the relevant section in the official documentati
 * [library.blas](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blas.html) - Basic linear algebra
 * [library.blast](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blast.html) - Further Linear Algebra Support Routines
 * [library.blgm](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.blgm.html) - Linear Model Specification
-* library.complex
-* library.contab
+* [library.complex](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.complex.html#module-naginterfaces.library.complex) - Complex Arithmetic
+* [library.contab](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.contab.html) - Contingency Table Analysis
 * library.correg
 * library.det
 * library.dot
