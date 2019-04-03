@@ -6,7 +6,7 @@ This repository contains examples and demonstrations using the [NAG Library for 
 
 Designed to work alongside the open source Python packages, [Numpy](http://www.numpy.org/) and [Scipy](https://www.scipy.org/), The NAG Library for Python can augment your computational workflow in many areas.
 
-## Directory of examples
+## Directory of GitHub examples
 
 * [Correlation and regression analysis](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/correlation_and_regression_analysis)
 * [Curve and surface fitting](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/curve_and_surface_fitting)
@@ -18,6 +18,14 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 * [Operations Research](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/operations_research)
 * [Random number generation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/random_number_generation)
 * [Time series analysis](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/time_series_analysis)
+
+## Examples that ship with the product 
+
+In addition to those presented here, The NAG Library for Python ships with a set of usage examples.  To see them all, run the following command 
+
+```
+python -m naginterfaces.library.examples --locate
+```
 
 ## NAG library for Python installation
 
