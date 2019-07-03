@@ -1,4 +1,11 @@
-[Second Order Cone Programming (SOCP)](https://en.wikipedia.org/wiki/Second-order_cone_programming) functionality was released at Mark 27 of the NAG library
+[Second Order Cone Programming (SOCP)](https://en.wikipedia.org/wiki/Second-order_cone_programming) is convex optimization which extends linear programming (LP) with second-order (Lorentz or the ice cream) cones. Search region of the solution is the intersection of an affine
+linear manifold with the Cartesian product of second-order cones. The figure below shows an example feasible region of an SOCP problem with 3 variables.
+
+SOCP appears in a broad range of applications from engineering, control theory and quantitative finance to quadratic programming
+and robust optimization. It has become an important tool for financial optimization due to its powerful nature. Interior point
+methods (IPM) are the most popular approaches to solve SOCP problems due to their theoretical polynomial complexity and practical performance.
+
+SOCP functionality was released at Mark 27 of the NAG library
 
 ## Portfolio Optimisation using Second Order Cone Programming (SOCP)
 
