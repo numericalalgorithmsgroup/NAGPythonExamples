@@ -3,7 +3,7 @@
 Second Order Cone Programming (SOCP) functionality was released at Mark 27 of the NAG library and this folder contains a demonstration of how to perform portfolio optimisation using it.
 
 * [portfolio_optimisation_using_socp.ipynb](./portfolio_optimisation_using_socp.ipynb) - Jupyter notebook
-* [portfolio_optimisation_using_socp.html](./portfolio_optimisation_using_socp.html) - Static HTML version
+* [portfolio_optimisation_using_socp.html](./html/portfolio_optimisation_using_socp.html) - Static HTML version
 
 ### Building the HTML version
 
