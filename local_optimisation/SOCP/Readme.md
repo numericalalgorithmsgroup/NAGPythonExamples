@@ -5,7 +5,7 @@ SOCP appears in a broad range of applications from engineering, control theory a
 and robust optimization. It has become an important tool for financial optimization due to its powerful nature. Interior point
 methods (IPM) are the most popular approaches to solve SOCP problems due to their theoretical polynomial complexity and practical performance.
 
-[SOCP Example](./socp_illus.png)
+![SOCP Example](./socp_illus.png)
 
 SOCP functionality was released at Mark 27 of the NAG library
 
