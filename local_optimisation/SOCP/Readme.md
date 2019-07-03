@@ -21,9 +21,16 @@ This demonstration is a walk-through of modelling techniques in portfolio optimi
 
 General functions are enclosed for users to get the principle idea on SOCP reformulation. They provide one of the ways to build and solve their problems using NAG's SOCP solver and could be copy and paste into a model and reuse repeatedly.               
 
-* [portfolio_optimisation_using_socp.ipynb](./portfolio_optimisation_using_socp.ipynb) - Jupyter notebook
-* [portfolio_optimisation_using_socp.pdf](./static/portfolio_optimisation_using_socp.pdf) - Static pdf version
-* [portfolio_optimisation_using_socp.html](./static/portfolio_optimisation_using_socp.html) - Static html version
+* [portfolio_optimisation_using_socp.ipynb](./portfolio_optimisation_using_socp.ipynb)  Jupyter notebook
+* [portfolio_optimisation_using_socp.pdf](./static/portfolio_optimisation_using_socp.pdf)  Static pdf version
+* [portfolio_optimisation_using_socp.html](./static/portfolio_optimisation_using_socp.html)  Static html version
+
+## Robust linear programming in portfolio optimization using the NAG Library 
+
+A mean-variance model with probability constraint using randomly generated data.
+
+* [robust_lp.ipynb](./robust_lp.ipynb) Jupyter Notebook
+* [robust_lp.html](./static/robust_lp.html) Static html version
 
 # Data
 
