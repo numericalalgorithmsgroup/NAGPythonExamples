@@ -1,4 +1,4 @@
-Second Order Cone Programming (SOCP) functionality was released at Mark 27 of the NAG library
+[Second Order Cone Programming (SOCP)](https://en.wikipedia.org/wiki/Second-order_cone_programming) functionality was released at Mark 27 of the NAG library
 
 ## Portfolio Optimisation using Second Order Cone Programming (SOCP)
 
