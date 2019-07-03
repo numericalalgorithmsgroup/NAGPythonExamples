@@ -13,7 +13,7 @@ This directory contains demonstrations using NAG's SOCP solver in Python.
 
 ## Portfolio Optimisation using Second Order Cone Programming (SOCP)
 
-A walk-through of modelling techniques in portfolio optimization using second-order cone programming in the NAG Library. Models in portfolio optimization include
+This demonstration is a walk-through of modelling techniques in portfolio optimization using second-order cone programming in the NAG Library. Models in portfolio optimization include
 
 * quadratic programming (efficient frontier)
 * quadratically constrained quadratic programming (tev portfolio)
