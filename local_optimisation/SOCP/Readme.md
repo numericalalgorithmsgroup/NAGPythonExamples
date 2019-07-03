@@ -16,4 +16,4 @@ General functions are enclosed for users to get the principle idea on SOCP refor
 
 # Data
 
-* stock_price.pkl - pickled data file contains daily prices of 30 stocks in DJIA from March 2018 to March 2019. It is used to estimate out-of-sample expected return and covariance matrix.
+* [stock_price.pkl](./stock_price.pkl) - pickled data file contains daily prices of 30 stocks in DJIA from March 2018 to March 2019. It is used to estimate out-of-sample expected return and covariance matrix.
