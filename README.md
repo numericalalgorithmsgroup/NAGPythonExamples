@@ -10,6 +10,7 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 
 * [Correlation and regression analysis](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/correlation_and_regression_analysis)
 * [Curve and surface fitting](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/curve_and_surface_fitting)
+* [Dimensionality Reduction](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/dimension_reduction)
 * [Global Optimisation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/global_optimisation)
 * [Linear Algebra](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/linear_algebra)
 * [Local optimisation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimisation)
