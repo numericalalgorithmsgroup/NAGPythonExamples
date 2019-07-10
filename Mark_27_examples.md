@@ -15,3 +15,7 @@ This is a list of examples that makes use of the new functionality
 ## Non Negative Matrix Factorisation
 
 * [Classifying web pages using non-negative matrix factorisation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/dimension_reduction)
+
+## Linear Algebra
+
+* [Triangular Matrix Multiplication](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/linear_algebra/triangular_matrix_multiply.ipynb)
