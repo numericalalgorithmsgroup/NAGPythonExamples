@@ -1,5 +1,7 @@
 ![NAG Logo](./nag_logo.png)
 
+* [Test link](./local_optimisation/SOCP/static/portfolio_optimisation_using_socp.html)
+
 # Examples using the NAG Library for Python
 
 This repository contains examples and demonstrations using the [NAG Library for Python](https://www.nag.co.uk/nag-library-python).  The NAG Library for Python contains 1700+ functions spanning many areas of numerical computing and data science.  
