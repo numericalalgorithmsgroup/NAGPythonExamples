@@ -1,9 +1,11 @@
 ![NAG Logo](./nag_logo.png)
 
-## Mark 27 
+## New material in Mark 27 
+
+### Second Order Cone Programming
 
 * [Portfolio Optimisation using SOCP](./local_optimisation/SOCP/static/portfolio_optimisation_using_socp.html)
-* [Robust Linear Programming](./local_optimisation/SOCP/static/robust_lp.html)
+* [Robust linear programming in portfolio optimization using the NAG Library](./local_optimisation/SOCP/static/robust_lp.html)
 
 # Examples using the NAG Library for Python
 
