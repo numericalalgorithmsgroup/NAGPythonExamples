@@ -5,7 +5,7 @@ linear manifold with the Cartesian product of second-order cones.
 
 The figure below shows an example feasible region of an SOCP problem with 3 variables.
 
-![SOCP Example](./socp_illus.png)
+![SOCP Example](./data/socp_illus.png)
 
 SOCP appears in a broad range of applications from engineering, control theory and quantitative finance to quadratic programming
 and robust optimization. It has become an important tool for financial optimization due to its powerful nature. Interior point
