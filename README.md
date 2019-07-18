@@ -101,6 +101,7 @@ The following links take you to the relevant section in the official documentati
 * [library.quad](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.quad.html) - Quadrature
 * [library.rand](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.rand.html) - Random Number Generators (pseudorandom and quasi-random numbers from various distributions and models)
 * [library.roots](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.roots.html) - Roots of One or More Transcendental Equations
+* [library.rnla](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.rnla.html) - Randomized Numerical Linear Algebra
 * [library.smooth](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.smooth.html) - Smoothing in Statistics
 * [library.sort](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sort.html) - Sorting and Searching
 * [library.sparseig](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.sparseig.html) - Large Scale Eigenproblems
