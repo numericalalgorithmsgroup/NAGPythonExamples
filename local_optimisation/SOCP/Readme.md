@@ -13,6 +13,10 @@ methods (IPM) are the most popular approaches to solve SOCP problems due to thei
 
 This directory contains demonstrations using NAG's SOCP solver in Python.
 
+## Basic SOCP example
+
+* [A basic example of how to call the SOCP solver](./simple_SOCP.ipynb)
+
 ## Portfolio Optimisation using Second Order Cone Programming (SOCP)
 
 This demonstration is a walk-through of modelling techniques in portfolio optimization using second-order cone programming in the NAG Library. Models in portfolio optimization include
