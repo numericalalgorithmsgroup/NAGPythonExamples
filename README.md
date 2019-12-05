@@ -18,6 +18,7 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 * [Nearest Correlation Matrices](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/neareast_correlation_matrices)
 * [Operations Research](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/operations_research)
 * [Random number generation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/random_number_generation)
+* [Roots](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/roots)
 * [Time series analysis](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/time_series_analysis)
 
 ## Examples that ship with the product 
