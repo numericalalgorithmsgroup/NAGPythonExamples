@@ -29,9 +29,9 @@ In addition to those presented here, The NAG Library for Python ships with a set
 python -m naginterfaces.library.examples --locate
 ```
 
-## NAG library for Python installation
+## NAG Library for Python installation
 
-The NAG library for Python comes in two versions. One is linked to the Intel MKL for improved linear algebra performance on x86 architectures and the other is linked to NAG's self contained linear algebra libraries.
+The NAG Library for Python comes in two versions. One is linked to the Intel MKL for improved linear algebra performance on x86 architectures and the other is linked to NAG's self contained linear algebra libraries.
 
 When using Intel or AMD CPUs we recommend the use of the Intel MKL version of the NAG Library for Python. 
 
