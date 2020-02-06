@@ -15,7 +15,13 @@ This directory contains demonstrations using NAG's SOCP solver in Python.
 
 ## Basic SOCP example
 
-* [A basic example of how to call the SOCP solver](./simple_SOCP.ipynb)
+* [A basic example of how to call the SOCP solver in Python](./simple_SOCP.ipynb)
+
+## Interface to CVXPY
+
+[CVXPY](https://www.cvxpy.org/) is a Python-embedded modeling language for convex optimization problems. It allows you to express your problem in a natural way that follows the math, rather than in the restrictive standard form required by solvers.  NAG's SOCP solver can be used from within CVXPY.
+
+* [A classification example using NAG's SOCP from CVXPY](./cvxpy_classification.ipynb)
 
 ## Portfolio Optimisation using Second Order Cone Programming (SOCP)
 
