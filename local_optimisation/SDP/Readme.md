@@ -4,3 +4,4 @@ Linear semidefinite programming can be viewed as a generalization of linear prog
 
 * [Matrix completion using Semi-Definite Programming (SDP)](./matrix_completion.ipynb)
 * [Nearest correlation matrix using Semi-Definite Programming (SDP)](./NCM_SDP.ipynb)
+* [Compute the Lovasz number of a graph using Semi-Definite Programming (SDP)](./theta_optimization.ipynb)
