@@ -6,4 +6,4 @@ bound constrained nonlinear least squares solver
 # Example
 Nuclear Track etch diameter fitting example
 
-[fit plot](fig-unfolding.png)
+![fit plot](./fig-unfolding.png)
