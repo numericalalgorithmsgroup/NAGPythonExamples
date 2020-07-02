@@ -15,7 +15,7 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 * [Linear Algebra](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/linear_algebra)
 * [Local optimization](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization)
 * [Multivariate methods](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/multivariate_methods)
-* [Nearest Correlation Matrices](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/neareast_correlation_matrices)
+* [Nearest Correlation Matrices](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/nearest_correlation_matrices)
 * [Operations Research](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/operations_research)
 * [Random number generation](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/random_number_generation)
 * [Roots](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/roots)

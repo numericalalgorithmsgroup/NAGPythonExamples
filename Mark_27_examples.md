@@ -10,7 +10,7 @@ This is a list of examples that makes use of the new functionality
 
 ## Nearest Correlation matrices
 
-* [Nearest Correlation Matrix Comparison](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/neareast_correlation_matrices/ncm_poster.ipynb)  The notebook behind [this poster](https://www.nag.com/market/posters/nearest-correlation-algos-nag-library.pdf)
+* [Nearest Correlation Matrix Comparison](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/nearest_correlation_matrices/ncm_poster.ipynb)  The notebook behind [this poster](https://www.nag.com/market/posters/nearest-correlation-algos-nag-library.pdf)
 
 ## Non Negative Matrix Factorisation
 
