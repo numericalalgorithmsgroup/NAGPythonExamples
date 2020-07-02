@@ -1,4 +1,4 @@
-# Local Optimisation Examples
+# Local Optimization Examples
 
 * [Second Order Cone Programming (SOCP)](./SOCP/)
 * [First order active set CG (FOAS)](./FOAS)

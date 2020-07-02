@@ -13038,45 +13038,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13326,10 +13287,10 @@ Note that by letting $Fx=y$, $\|Fx\|=\|y\|\leq t$ in (\ref{label_3}) fits exactl
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import utility libraries and the NAG Library</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="nn">mt</span>
-<span class="kn">from</span> <span class="nn">scipy.sparse</span> <span class="k">import</span> <span class="n">coo_matrix</span>
-<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">norm</span>
-<span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="k">import</span> <span class="n">opt</span>
-<span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="k">import</span> <span class="n">lapackeig</span>
+<span class="kn">from</span> <span class="nn">scipy.sparse</span> <span class="kn">import</span> <span class="n">coo_matrix</span>
+<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+<span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="kn">import</span> <span class="n">opt</span>
+<span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="kn">import</span> <span class="n">lapackeig</span>
 </pre></div>
 
     </div>
@@ -13347,7 +13308,7 @@ Note that by letting $Fx=y$, $\|Fx\|=\|y\|\leq t$ in (\ref{label_3}) fits exactl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set alpha and beta</span>
@@ -13613,10 +13574,10 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creat problem handle</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create problem handle</span>
 <span class="n">handle</span> <span class="o">=</span> <span class="n">opt</span><span class="o">.</span><span class="n">handle_init</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
 
 <span class="c1"># Set objective function</span>
@@ -13631,7 +13592,7 @@ $$</p>
 <span class="c1"># Set cone constraints</span>
 <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">ctype</span><span class="p">):</span>
-    <span class="n">opt</span><span class="o">.</span><span class="n">handle_set_group</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ctype</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">group</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">opt</span><span class="o">.</span><span class="n">handle_set_group</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ctype</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="n">group</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
     <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
 
 <span class="c1"># Set options</span>
@@ -13665,48 +13626,50 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  ---------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:   E04PT, Interior point method for SOCP problems
 naginterfaces.base.opt.handle_solve_socp_ipm:  ------------------------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:
-naginterfaces.base.opt.handle_solve_socp_ipm:  Original Problem Statistics
+naginterfaces.base.opt.handle_solve_socp_ipm:  Problem Statistics
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of variables                 17
+naginterfaces.base.opt.handle_solve_socp_ipm:      free (unconstrained)           9
+naginterfaces.base.opt.handle_solve_socp_ipm:      bounded                        8
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of lin. constraints          10
+naginterfaces.base.opt.handle_solve_socp_ipm:      nonzeroes                     89
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of quad.constraints           0
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of cones                      1
+naginterfaces.base.opt.handle_solve_socp_ipm:      biggest cone size              9
+naginterfaces.base.opt.handle_solve_socp_ipm:    Objective function          Linear
 naginterfaces.base.opt.handle_solve_socp_ipm:
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of variables                          17
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of linear constraints                 10
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of nonzeros                           89
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of cones                               1
-naginterfaces.base.opt.handle_solve_socp_ipm:
-naginterfaces.base.opt.handle_solve_socp_ipm:
-naginterfaces.base.opt.handle_solve_socp_ipm:  Presolved Problem Statistics
-naginterfaces.base.opt.handle_solve_socp_ipm:
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of variables                          17
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of linear constraints                 10
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of nonzeros                           89
-naginterfaces.base.opt.handle_solve_socp_ipm:    Number of cones                               1
+naginterfaces.base.opt.handle_solve_socp_ipm:  Presolved Problem Measures
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of variables                 17
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of lin. constraints          10
+naginterfaces.base.opt.handle_solve_socp_ipm:      nonzeroes                     89
+naginterfaces.base.opt.handle_solve_socp_ipm:    No of cones                      1
 naginterfaces.base.opt.handle_solve_socp_ipm:
 naginterfaces.base.opt.handle_solve_socp_ipm:
 naginterfaces.base.opt.handle_solve_socp_ipm:  ------------------------------------------------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:   it|    pobj    |    dobj    |  p.inf  |  d.inf  |  d.gap  |   tau  | I
 naginterfaces.base.opt.handle_solve_socp_ipm:  ------------------------------------------------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:    0 -1.13221E+00  0.00000E+00  8.43E-01  2.14E-01  4.45E+00  1.0E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    1 -2.82490E-01 -8.98481E-02  1.91E-01  4.87E-02  1.01E+00  1.3E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    2 -1.32896E-01 -9.68963E-02  3.73E-02  9.50E-03  1.97E-01  1.4E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    3 -1.10308E-01 -9.31071E-02  1.83E-02  4.66E-03  9.65E-02  1.4E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    4 -1.02701E-01 -8.92455E-02  1.10E-02  2.81E-03  5.83E-02  1.1E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    5 -8.78903E-02 -8.59020E-02  1.62E-03  4.12E-04  8.55E-03  1.1E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    6 -8.58224E-02 -8.53194E-02  3.89E-04  9.90E-05  2.05E-03  1.0E+00
-naginterfaces.base.opt.handle_solve_socp_ipm:    7 -8.54027E-02 -8.51613E-02  1.71E-04  4.34E-05  9.01E-04  9.6E-01
-naginterfaces.base.opt.handle_solve_socp_ipm:    8 -8.50652E-02 -8.50604E-02  3.51E-06  8.93E-07  1.85E-05  9.7E-01
-naginterfaces.base.opt.handle_solve_socp_ipm:    9 -8.50588E-02 -8.50583E-02  3.86E-07  9.84E-08  2.04E-06  9.7E-01
-naginterfaces.base.opt.handle_solve_socp_ipm:   10 -8.50580E-02 -8.50580E-02  9.88E-09  2.51E-09  5.21E-08  9.7E-01
-naginterfaces.base.opt.handle_solve_socp_ipm:   11 -8.50580E-02 -8.50580E-02  3.19E-10  1.47E-10  8.04E-10  9.7E-01
+naginterfaces.base.opt.handle_solve_socp_ipm:    1 -2.89642E-01 -8.90919E-02  1.98E-01  5.04E-02  1.05E+00  1.3E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    2 -1.34996E-01 -9.70072E-02  3.90E-02  9.93E-03  2.06E-01  1.3E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    3 -1.10768E-01 -9.33242E-02  1.87E-02  4.75E-03  9.85E-02  1.4E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    4 -1.02255E-01 -8.90646E-02  1.08E-02  2.76E-03  5.72E-02  1.1E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    5 -8.76429E-02 -8.58580E-02  1.46E-03  3.71E-04  7.70E-03  1.1E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    6 -8.57927E-02 -8.53098E-02  3.71E-04  9.44E-05  1.96E-03  1.0E+00
+naginterfaces.base.opt.handle_solve_socp_ipm:    7 -8.53955E-02 -8.51598E-02  1.66E-04  4.23E-05  8.77E-04  9.6E-01
+naginterfaces.base.opt.handle_solve_socp_ipm:    8 -8.50657E-02 -8.50608E-02  3.58E-06  9.11E-07  1.89E-05  9.7E-01
+naginterfaces.base.opt.handle_solve_socp_ipm:    9 -8.50586E-02 -8.50582E-02  2.99E-07  7.60E-08  1.58E-06  9.7E-01
+naginterfaces.base.opt.handle_solve_socp_ipm:   10 -8.50580E-02 -8.50580E-02  4.94E-09  1.26E-09  2.61E-08  9.7E-01
+naginterfaces.base.opt.handle_solve_socp_ipm:   11 -8.50580E-02 -8.50580E-02  3.10E-10  2.86E-09  7.60E-10  9.7E-01
 naginterfaces.base.opt.handle_solve_socp_ipm:  ------------------------------------------------------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:  Status: converged, an optimal solution found
 naginterfaces.base.opt.handle_solve_socp_ipm:  ------------------------------------------------------------------------------
 naginterfaces.base.opt.handle_solve_socp_ipm:  Final primal objective value        -8.505797E-02
 naginterfaces.base.opt.handle_solve_socp_ipm:  Final dual objective value          -8.505797E-02
-naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute primal infeasibility        2.869531E-09
-naginterfaces.base.opt.handle_solve_socp_ipm:  Relative primal infeasibility        3.186829E-10
-naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute dual infeasibility          1.765929E-09
-naginterfaces.base.opt.handle_solve_socp_ipm:  Relative dual infeasibility          1.471607E-10
-naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute complementarity gap         1.266105E-09
-naginterfaces.base.opt.handle_solve_socp_ipm:  Relative complementarity gap         8.044616E-10
+naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute primal infeasibility        2.792098E-09
+naginterfaces.base.opt.handle_solve_socp_ipm:  Relative primal infeasibility        3.100833E-10
+naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute dual infeasibility          3.426593E-08
+naginterfaces.base.opt.handle_solve_socp_ipm:  Relative dual infeasibility          2.855494E-09
+naginterfaces.base.opt.handle_solve_socp_ipm:  Absolute complementarity gap         1.196609E-09
+naginterfaces.base.opt.handle_solve_socp_ipm:  Relative complementarity gap         7.603048E-10
 naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                                     11
 </pre>
 </div>
@@ -13726,7 +13689,7 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                       
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Optimal portfolio</span>
@@ -13743,14 +13706,14 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                       
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([1.93322779e-10, 3.97165177e-01, 3.35524516e-01, 7.15459782e-10,
-       1.16762817e-01, 1.15110232e-10, 8.27684160e-02, 6.77790766e-02])</pre>
+<pre>array([1.78370070e-10, 3.97165725e-01, 3.35524704e-01, 6.38204798e-10,
+       1.16764115e-01, 1.09736177e-10, 8.27681330e-02, 6.77773247e-02])</pre>
 </div>
 
 </div>
@@ -13761,7 +13724,7 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                       
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Optimal expected return</span>
@@ -13778,13 +13741,13 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                       
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.08505797359531908</pre>
+<pre>0.08505797356253089</pre>
 </div>
 
 </div>
@@ -13813,7 +13776,7 @@ naginterfaces.base.opt.handle_solve_socp_ipm:  Iterations                       
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="References">References<a class="anchor-link" href="#References">&#182;</a></h1><p>[<a id="cit-AG03" href="#call-AG03">1</a>] Alizadeh Farid and Goldfarb Donald, ``<em>Second-order cone programming</em>'', Mathematical programming, vol. 95, number 1, pp. 3--51,  2003.</p>
 <p>[<a id="cit-LVBL98" href="#call-LVBL98">2</a>] Lobo Miguel Sousa, Vandenberghe Lieven, Boyd Stephen <em>et al.</em>, ``<em>Applications of second-order cone programming</em>'', Linear algebra and its applications, vol. 284, number 1-3, pp. 193--228,  1998.</p>
-<p>[<a id="cit-NAGDOC" href="#call-NAGDOC">3</a>] Numerical Algorithms Group, ``<em>NAG documentation</em>'',  2019.  <a href="https://www.nag.co.uk/numeric/fl/nagdoc_latest/html/frontmatter/manconts.html">online</a></p>
+<p>[<a id="cit-NAGDOC" href="#call-NAGDOC">3</a>] Numerical Algorithms Group, ``<em>NAG documentation</em>'',  2019.  <a href="https://www.nag.com/numeric/fl/nagdoc_latest/html/frontmatter/manconts.html">online</a></p>
 
 </div>
 </div>

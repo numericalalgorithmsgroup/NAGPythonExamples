@@ -1,12 +1,12 @@
-# Examples for Mark 27 of the NAG Library for Python 
+# Examples for Mark 27 of the NAG Library for Python
 
-Mark 27 of the NAG Library for Python introduced many new routines to the library.  
+Mark 27 of the NAG Library for Python introduced many new routines to the library.
 This is a list of examples that makes use of the new functionality
 
-## Optimisation
+## Optimization
 
-* [Portfolio optimization using second-order cone programming (SOCP)](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/local_optimisation/SOCP/portfolio_optimisation_using_socp.ipynb)
-* [Robust linear programming in portfolio optimization using the NAG Library](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/local_optimisation/SOCP/robust_lp.ipynb)
+* [Portfolio optimization using second-order cone programming (SOCP)](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/local_optimization/SOCP/portfolio_optimization_using_socp.ipynb)
+* [Robust linear programming in portfolio optimization using the NAG Library](https://github.com/numericalalgorithmsgroup/NAGPythonExamples/blob/master/local_optimization/SOCP/robust_lp.ipynb)
 
 ## Nearest Correlation matrices
 
