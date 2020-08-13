@@ -41,7 +41,7 @@ Install using the following command
 python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginterfaces_mkl naginterfaces
 ```
 
-**Obtaining a license**
+## Obtaining a license
 
 Before you can use the NAG Library for Python, you'll need a license.  Free trial licenses are available!
 
@@ -56,7 +56,7 @@ python -m naginterfaces.kusari
 * More detailed installation instructions are [available in the official documentation](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 * More detailed license management instructions are available at [https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
 
-**Official documentation links**
+## List of Chapters in the NAG Library for Python
 
 The following links take you to the relevant section in the official documentation
 
