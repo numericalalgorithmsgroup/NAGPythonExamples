@@ -17,8 +17,8 @@ The following example illustrates the simple usage of FOAS to solve the bound-co
 
 **Figure 1.** 2D Rosenbrock function, (left) the minimum is shown as a yellow dot at x=(1,1). On the right a bound constrained version showing with a purple dotted line a path towards the constrained solution point on the border.
 
-# More info [TODO fix links]
- 1. [FOAS information leaflet]()
+# More information 
+ 1. [FOAS information page](https://www.nag.com/content/limited-memory-nonlinear-conjugate-gradient-solver)
  2. [FOAS in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bounds_foas)
  3. [FOAS documentation page](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html) [[Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex.main), [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html#example), [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html#example)]
 
