@@ -51,7 +51,6 @@ Notes, source code and comments on migrating your code to support the new FOAS s
 
  * [Python](migration/python.md)
  * [Fortran 90](migration/fotran.md)
- * [C](migration/c.md)
 
 # References
 
