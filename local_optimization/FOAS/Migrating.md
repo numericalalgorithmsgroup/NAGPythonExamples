@@ -49,8 +49,8 @@ It illustrates the agressive steps taken by the [Conjugate Gradient method](http
 
 Notes, source code and comments on migrating your code to support the new FOAS solver:
 
- * [Python](migration/python.md)
- * [Fortran 90](migration/fotran.md)
+ * [Python](migration/migration_e04dg_e04kf.ipynb)
+ * [Fortran 90](migration/migration_e04dg_e04kf.f90)
 
 # References
 
