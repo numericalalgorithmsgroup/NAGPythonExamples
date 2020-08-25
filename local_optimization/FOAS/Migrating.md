@@ -47,10 +47,11 @@ It illustrates the agressive steps taken by the [Conjugate Gradient method](http
 
 # Migrating from E04DG (Mark 26.x) to E04KF (Mark +27.x)
 
-Notes, source code and comments on migrating your code to support the new FOAS solver:
+Notes and comments on migrating your code to the new FOAS solver:
 
  * [Python](migration/migration_e04dg_e04kf.ipynb)
- * [Fortran 90](migration/migration_e04dg_e04kf.f90)
+ * [Fortran 90](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/genint/replace.html#e04dgf)
+ * [C](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/genint/replace.html#e04dgc)
 
 # References
 
