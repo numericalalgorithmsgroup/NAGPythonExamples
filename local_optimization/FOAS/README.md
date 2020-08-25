@@ -20,7 +20,7 @@ The following example illustrates the simple usage of FOAS to solve the bound-co
 # More information 
  1. [FOAS information page](https://www.nag.com/content/limited-memory-nonlinear-conjugate-gradient-solver)
  2. [FOAS in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bounds_foas)
- 3. [FOAS documentation page](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html) [ [Fortran 90](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html) | [C](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html)  ]
+ 3. [FOAS documentation page](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html) [ [C](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html) | [Fortran](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html) ]
  4. Examples [ [Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex.main) | [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html#example) | [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html#example) ]
 
 # A modern replacement for NAG solver [e04dg](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04dgf.html)
