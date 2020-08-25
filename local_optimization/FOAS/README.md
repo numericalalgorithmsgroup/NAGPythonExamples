@@ -35,6 +35,16 @@ More recent and modern methods have been incorporated into e04kf making it much 
 
 **Figure 2.** Performance profiles comparing solvers e04kf and e04dg. In the time plot on the left, higher line indicates faster solver. For the center and right plots higher line represent less functions (NF) or gradients (NG) calls. For all three plots it can be seen that e04kf is 40% faster in time and requires less function and gradient calls.
 
+
+# Migrating from E04DG (Mark 26.x) to E04KF (Mark +27.x)
+
+Notes and comments on migrating your code to the new FOAS solver:
+
+ * [Python](migration/migration_e04dg_e04kf.ipynb)
+ * [Fortran 90](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/genint/replace.html#e04dgf)
+ * [C](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/genint/replace.html#e04dgc)
+
+
 # Beale's function
 This example compares the steps taken by FOAS and L-BFGS-B 3.0 to find the solution point to [Beale's function](https://en.wikipedia.org/wiki/Test_functions_for_optimization). It is a classic nonconvex test function used to benchmark nonlinear optimization solvers.
 
