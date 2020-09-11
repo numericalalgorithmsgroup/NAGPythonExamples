@@ -1,4 +1,4 @@
-[![NAG](https://raw.githubusercontent.com/talassio/NAGPythonExamples/master/nag_logo.png)](https://www.nag.co.uk)
+[![NAG](https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/nag_logo.png)](https://www.nag.co.uk)
 
 # Nonlinear Least-Squares Trust-Region Method (BXNL)
 
@@ -70,7 +70,7 @@ require less function calls (center plot) and 65% of the problems require less g
 
 [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) 
 should present significant improvement for unconstrained or bound-constrained nonlinear 
-least-squares solvers in the NAG Library and current users of [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) ([`nagf_opt_lsq_uncon_quasi_deriv_comp`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04gbc.html) ) 
+least-squares solvers in the NAG Library and current users of [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) ([`lsq_uncon_quasi_deriv_comp`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04gbc.html) ) 
 are highly encourage to try out the new solver.
 
 <table>
