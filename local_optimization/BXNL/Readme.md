@@ -4,7 +4,7 @@
 
 Data fitting and calibrating parameters of complex numerical models is one of the most common
 problems found in numerous industries such as  physics, space exploration, simulations, engineering, amongs many others. 
-[NAG](https://www.nag.co.uk/) introduces to the [NAG Library at Mark 27.1](https://www.nag.co.uk/content/nag-library) a novel [nonlinear least-square](https://en.wikipedia.org/wiki/Non-linear_least_squares) [trust-region solver](https://en.wikipedia.org/wiki/Trust_region) for unconstrained or bound-constrained fitting problems ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html), [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html)). It offers a significant variety of algorithms and regularisation techniques.
+[NAG](https://www.nag.co.uk/) introduces to the [NAG Library at Mark 27.1](https://www.nag.co.uk/content/nag-library) a novel [nonlinear least-square](https://en.wikipedia.org/wiki/Non-linear_least_squares) [trust-region solver](https://en.wikipedia.org/wiki/Trust_region) for unconstrained or bound-constrained fitting problems, [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)). It offers a significant variety of algorithms and regularisation techniques.
 
 The solver [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) is aimed at small- to mid-scale (100s to 1000s of parameters) bound-constrained nonlinear least-squares problems 
 and is also part of the [NAG Optimization Modelling Suite](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite) common handle interface. It offers clarity and consistency of the interface of the solvers within the suite, making it trivial to switch among compatible solvers.
@@ -31,7 +31,7 @@ Figure 1 shows an illustrative simple problem of data fitting ([Jupyter Notebook
  
  [[Python Jupyter notebook for this example](./notebooks/simple_BXNL.ipynb)]
 
-This example illustrates the usage of `e04gg` to fit PADC
+This example illustrates the usage of [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)) to fit PADC
 etched nuclear track data of alpha particles to a convoluted distribution. A target
 sheet is scanned and track diameters are recorded (red wedges,
 left in Figure 2) into a histogram (Blue bars right plot of Figure 2)
@@ -59,7 +59,7 @@ Optimal parameter values are reported in the legend.
 
 
 # Modern Replacement Alternative
-Solver [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) is a modern and attractive replacement for the unconstrained nonlinear least-squares solver [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) introduced at Mark 7. 
+Solver [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)) is a modern and attractive replacement for the unconstrained nonlinear least-squares solver [`lsq_uncon_quasi_deriv_comp`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04gbc.html) ([`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html)). 
 
 More recent and modern methods have been incorporated into [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) making it much faster than [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html). Our benchmarks comparing [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) to [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) using 68 unconstrained nonlinear least-squares CUTEst problems is reported in Figure 3 using performance profiles. 
 
@@ -70,7 +70,7 @@ require less function calls (center plot) and 65% of the problems require less g
 
 [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) 
 should present significant improvement for unconstrained or bound-constrained nonlinear 
-least-squares solvers in the NAG Library and current users of [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) ([`lsq_uncon_quasi_deriv_comp`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04gbc.html) ) 
+least-squares solvers in the NAG Library and current users of [`e04gb`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04gbf.html) 
 are highly encourage to try out the new solver.
 
 <table>
