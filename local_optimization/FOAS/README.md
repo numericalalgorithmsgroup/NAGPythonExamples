@@ -1,6 +1,6 @@
-[![NAG](https://raw.githubusercontent.com/talassio/NAGPythonExamples/master/nag_logo.png)](https://www.nag.co.uk)
+[![NAG](https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/nag_logo.png)](https://www.nag.co.uk)
 
-# First-order active-set method (FOAS) [`handle_solve_bounds_foas` (`e04kf`)](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html)
+# First-order active-set method (FOAS) [`handle_solve_bounds_foas (e04kf)`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html)
 
 Implementations of first-order methods not only are ubiquitous and have a widespread use, they have also demonstrated to endure the challenges of ever-growing problems sizes imposed by the industry. Most notable are applications in statistics, e.g. parameter calibration for log-linear models, conditional random fields (L2-regularisation) or logistic multi-class regression, amongs many other. First-order methods and the Conjugate Gradient method inparticular have been a research subject for well over 50 years and continue to be improved.
 
@@ -36,7 +36,7 @@ More recent and modern methods have been incorporated into `e04kf` making it muc
 
 **Figure 2.** Performance profiles comparing solvers `e04kf` and `e04dg`. In the time plot on the left, higher line indicates faster solver. For the center and right plots higher line represent less functions (NF) or gradients (NG) calls. For all three plots it can be seen that `e04kf` is 40% faster in time and requires less function and gradient calls.
 
-# Migrating from [`uncon_conjgrd_comp`, `e04dg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04dgf.html) (Mark 26.x) to [`handle_solve_bounds_foas`, `e04kf`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html) (Mark 27+)
+# Migrating from [`uncon_conjgrd_comp (e04dg)`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04dgf.html) (Mark 26.x) to [`handle_solve_bounds_foas (e04kf)`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html) (Mark 27+)
 
 Notes and comments on migrating your code to the new FOAS solver:
 
