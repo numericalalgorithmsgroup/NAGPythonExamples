@@ -2,7 +2,7 @@
 
 # Examples using the NAG Library for Python
 
-**Example Edit**
+**New Edit**
 
 This repository contains examples and demonstrations using the [NAG Library for Python](https://www.nag.com/nag-library-python).  The NAG Library for Python contains 1900+ functions spanning many areas of numerical computing and data science.
 
