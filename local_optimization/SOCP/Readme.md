@@ -52,3 +52,7 @@ A mean-variance model with probability constraint using randomly generated data.
 # Poster
 
 A 2019 poster discussing NAG's SOCP functionality is [available on the NAG website](https://www.nag.com/market/posters/socp.pdf)
+
+# Obtaining the NAG Library for Python
+
+Instructions for how to download, install and license the NAG Library for Python can be found at https://github.com/numericalalgorithmsgroup/NAGPythonExamples#nag-library-for-python-installation
