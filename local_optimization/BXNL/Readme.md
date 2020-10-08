@@ -6,7 +6,7 @@ Data fitting and calibrating parameters of complex numerical models is one of th
 problems found in numerous industries such as  physics, space exploration, simulations, engineering, amongs many others. 
 [NAG](https://www.nag.co.uk/) introduces to the [NAG Library at Mark 27.1](https://www.nag.co.uk/content/nag-library) a novel [nonlinear least-square](https://en.wikipedia.org/wiki/Non-linear_least_squares) [trust-region solver](https://en.wikipedia.org/wiki/Trust_region) for unconstrained or bound-constrained fitting problems, [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)). It offers a significant variety of algorithms and regularisation techniques.
 
-The solver [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) is aimed at small- to mid-scale (100s to 1000s of parameters) bound-constrained nonlinear least-squares problems 
+The solver [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) is aimed at small to medium sized fitting problems (up to 1000s of parameters) bound-constrained nonlinear least-squares problems 
 and is also part of the [NAG Optimization Modelling Suite](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite) common handle interface. It offers clarity and consistency of the interface of the solvers within the suite, making it trivial to switch among compatible solvers.
 
 Figure 1 shows an illustrative simple problem of data fitting ([Jupyter Notebook](./notebooks/orbit_ex.ipynb)). The task is to find the optimal orbit path given a variety of measurements for which the orbit has to approximatly pass-by.
