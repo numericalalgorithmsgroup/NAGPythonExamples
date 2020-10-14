@@ -52,7 +52,7 @@ It illustrates the agressive steps taken by the [Conjugate Gradient method](http
 
 <img src="./images/animated.gif" width="400px" alt="Beale function solved using e04kf and L-BFGS-B"/>
 
-**Figure 3.** Contour plots for Beale's function (thin blue lines), and the steps taken by FOAS (red) and L-BFGS-B 3.0 (blue) to find the minimum of Beale's funtion at (3, 0.5) marked with a magenta star in the. It can be seen that FOAS by the 8th step provides a reasonable approximation to the solution point while L-BFGS-B is still relatively far from it. 
+**Figure 3.** Contour plots for Beale's function (thin blue lines), and the steps taken by FOAS (red) and L-BFGS-B 3.0 (blue) to find the minimum of Beale's funtion at (3, 0.5) marked with a magenta star. It can be seen that FOAS by the 8th step provides a reasonable approximation to the solution point while L-BFGS-B is still relatively far from it. 
 
 # References
 
