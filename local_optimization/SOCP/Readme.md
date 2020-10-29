@@ -23,7 +23,7 @@ This directory contains demonstrations using NAG's SOCP solver in Python.
 
 * [A classification example using NAG's SOCP from CVXPY](./cvxpy_classification.ipynb)
 
-## Portfolio Optimization using Second Order Cone Programming (SOCP)
+## Portfolio Optimization as Quadratically Constrained Quadratic Programming (QCQP)
 
 This demonstration is a walk-through of modelling techniques in portfolio optimization using second-order cone programming in the NAG Library. Models in portfolio optimization include
 
@@ -31,7 +31,13 @@ This demonstration is a walk-through of modelling techniques in portfolio optimi
 * quadratically constrained quadratic programming (tev portfolio)
 * optimization with objective of fraction of quadratic and linear (the Sharpe ratio).
 
-General functions are enclosed for users to get the principle idea on SOCP reformulation. They provide one of the ways to build and solve their problems using NAG's SOCP solver and could be copy and paste into a model and reuse repeatedly.
+NAG provides two functions for users to easily define quadratic objective and constraints. Then the second-order cone programming solver can be called directly to solve the problem without any extra effort on reformulation.
+
+* [portfolio_optimization_qcqp.ipynb](./portfolio_optimization_qcqp.ipynb)  Jupyter notebook
+* [portfolio_optimization_qcqp.pdf](./static/portfolio_optimization_qcqp.pdf)  Static pdf version
+* [portfolio_optimization_qcqp.html](./static/portfolio_optimization_qcqp.html)  Static html version
+
+Users can also transform their QCQP problem into second-order cone programming model by hand. In the following notebook two general functions are enclosed for users to get the principle idea on SOCP reformulation.
 
 * [portfolio_optimization_using_socp.ipynb](./portfolio_optimization_using_socp.ipynb)  Jupyter notebook
 * [portfolio_optimization_using_socp.pdf](./static/portfolio_optimization_using_socp.pdf)  Static pdf version
