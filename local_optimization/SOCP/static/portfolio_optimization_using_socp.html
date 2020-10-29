@@ -13164,6 +13164,21 @@ $( document ).ready(function(){
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Correct-Rendering-of-this-notebook">Correct Rendering of this notebook<a class="anchor-link" href="#Correct-Rendering-of-this-notebook">&#182;</a></h1><p>This notebook makes use of the <code>latex_envs</code> Jupyter extension for equations and references.  If the LaTeX is not rendering properly in your local installation of Jupyter , it may be because you have not installed this extension.  Details at <a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/latex_envs/README.html">https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/latex_envs/README.html</a></p>
 <p>The notebook is also not rendered well by GitHub so if you are reading it from there, you may prefer the <a href="./static/portfolio_optimization_using_socp.pdf">pdf version instead</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Note-for-the-users-of-the-NAG-Library-Mark-$27.1$-onwards">Note for the users of the NAG Library Mark $27.1$ onwards<a class="anchor-link" href="#Note-for-the-users-of-the-NAG-Library-Mark-$27.1$-onwards">&#182;</a></h1><p>At Mark $27.1$ of the NAG Library, NAG introduced two new additions to help users easily define a Quadratically Constrained Quadratic Programming (QCQP) problem. All the models in this notebook then can be solved in a much simpler way without the need of a reformulation or any extra effort. It's recommended that the users of the NAG Library Mark $27.1$ or newer should look at the <a href="./portfolio_optimization_qcqp.ipynb">notebook on QCQP instead</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1>
 </div>
 </div>
@@ -13413,7 +13428,6 @@ $( document ).ready(function(){
 <span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="kn">import</span> <span class="n">opt</span>
 <span class="kn">from</span> <span class="nn">naginterfaces.library</span> <span class="kn">import</span> <span class="n">lapackeig</span>
 <span class="c1"># Import necessary math libraries</span>
-<span class="kn">from</span> <span class="nn">scipy.sparse</span> <span class="kn">import</span> <span class="n">coo_matrix</span>
 <span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="nn">mt</span>
 <span class="kn">import</span> <span class="nn">warnings</span> <span class="k">as</span> <span class="nn">wn</span>
 </pre></div>
