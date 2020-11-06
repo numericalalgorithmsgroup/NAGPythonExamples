@@ -23,7 +23,7 @@ Figure 1 shows an illustrative simple problem of data fitting ([Jupyter Notebook
  
  
 # More Info
- 1. [BXNL information leaflet]()
+ 1. [BXNL information leaflet](https://www.nag.com/content/faster-data-fitting-solver)
  2. [BXNL in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bxnl)
  3. [BXNL documentation page](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) [[Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_disable_ex.main), [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html#example), [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html#example)]
  
