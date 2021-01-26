@@ -1,4 +1,8 @@
-# Local Optimization Examples
+![NAG Logo](../nag_logo.png)
+
+# Local Optimization 
+
+# Content
 
 * [Second Order Cone Programming (SOCP)](./SOCP/)
 * [First order active set CG (FOAS)](./FOAS)
