@@ -130,9 +130,23 @@ Now let's try a more interesting example ([list of optimization examples](https:
 
 This command runs the example for the [FOAS (First-Order Active set method) solver and minimizes the Rosenbrock 2D function](./FOAS).
 ```
-python -m naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex
+(nag3) guest@nag-37:~$ python -m naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex
 ```
-The source code of the previous example can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/_modules/naginterfaces/library/examples/opt/handle_solve_bounds_foas_ex.html#main).
+Should generate an outputsimilar to
+```{bash}
+Trying:
+    main()
+Expecting:
+    naginterfaces.library.opt.handle_solve_bounds_foas Python Example Results.
+    Minimizing a bound-constrained Rosenbrock problem.
+     E04KF, First order method for bound-constrained problems
+...
+     Status: converged, an optimal solution was found
+     Value of the objective             4.00000E-02
+    ...
+ok
+```
+indicating that the example was successfully executed. The source code can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/_modules/naginterfaces/library/examples/opt/handle_solve_bounds_foas_ex.html#main).
 
 ### Running more examples
 
