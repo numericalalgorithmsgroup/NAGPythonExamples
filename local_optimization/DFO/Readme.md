@@ -22,12 +22,17 @@ engineering, etc.). To solve these optimization problems with a standard optimiz
 problems with a nonlinear least squares structure) or 
 [CG](https://en.wikipedia.org/wiki/Conjugate_gradient_method) (for unstructured nonlinear objective) requires good estimates 
 of the model's derivatives. 
-
 If exact derivatives are easy to compute then using derivative-based methods is preferable. However, explicitly writing the derivatives 
 or applying [AD methods](https://www.nag.com/content/algorithmic-differentiation-software) might be impossible if the model is a black box. 
 The alternative, estimating derivatives via [finite differences](https://en.wikipedia.org/wiki/Finite_difference#Relation_with_derivatives), 
 can quickly become impractical or too computationally expensive.
 
+NAG's model-based DFO solvers for DFLS and DFNO present a number of attractive features:
+
+ * Proved resilience to noise.
+ * Solvers are able to start making progress with as few as two objective evaluations;
+ * Integrated to the NAG Optimization Modeling Suite with simple interfaces for the solvers and related routines;
+ * Optional reverse communication interface
 
 ![2 steps of DFO algorithm](animation.gif)
 
