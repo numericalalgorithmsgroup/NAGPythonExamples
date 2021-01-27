@@ -173,14 +173,14 @@ Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwid
 This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example.
 ### Running the notebook examples
 To run an example, grab a copy of the notebook of interest and start up the notebook interface.
-First, in this example we download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) file `rosenbrock2d.ipynb` into the current directory
+For example, download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) notebook `rosenbrock2d.ipynb` into the current directory
 ```{bash}
 (nag3) guest@nag-37:~$ curl -O https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/local_optimization/FOAS/rosenbrock2d.ipynb
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 61961  100 61961    0     0   382k      0 --:--:-- --:--:-- --:--:--  382k
 ```
-and open it using `jupyter-notebook`
+and now open it using `jupyter-notebook`
 ```{bash}
 (nag3) guest@nag-37:~$ jupyter-notebook rosenbrock2d.ipynb
 [I 12:24:07.336 NotebookApp] Serving notebooks from local directory: /home/guest
