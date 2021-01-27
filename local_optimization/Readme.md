@@ -96,13 +96,13 @@ Error: Licence not found; this product requires a key for NLL6I271VL
 The above information has been generated on machine nag-37
 For information on how to obtain a licence, please see
 https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html
-KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"
+KUSARI ID = "ADLXt-adEclJLmvnxlrU2sseteZoo,RopA-Ld"
 ```
 The **two** important bits are the 
 
  1. **product code** shown as **`underlying Library NLL6I271VL.`** which identifies the licence to request, and
  
- 2. **KUSARI ID** shown as **`KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"`** which identifies the host you are running the library on.
+ 2. **KUSARI ID** shown as **`KUSARI ID = "ADLXt-adEclJLmvnxlrU2sseteZoo,RopA-Ld"`** which identifies the host you are running the library on.
  
  **Note** that the **product code** and **KUSARI ID** can be different from the previous example.
  
