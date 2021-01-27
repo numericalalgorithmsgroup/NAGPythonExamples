@@ -35,9 +35,6 @@ based on weight and strengh of the piece.
 * [Assortment of example notebooks](./Notebooks)  ![Jupyter](https://img.shields.io/badge/NAG-Work&nbsp;in&nbsp;progress-yellow)
 
 
-### Examples (FIXME: Remove section)
-* [Minimizing the generalized Rosenbrock function using bound constrained optimization](./bounds_quasi_func_easy.ipynb)
-
 # How to install the NAG Library for Python<a name=install></a>
 
 In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
