@@ -31,7 +31,7 @@ based on weight and strengh of the piece.
 * [Nonlinear Least-Squares (BXNL)](./BXNL)
 * [Semi-Definite Programming (SDP)](./SDP/)
 * [Derivative-Free Optimization (DFO)](./DFO/)
-* [Tips and Tricks in modelling](./modelling/)
+* [Tips and Tricks in modelling](./Modelling/)
 * [Assortment of example notebooks](./Notebooks)  ![Jupyter](https://img.shields.io/badge/NAG-Work&nbsp;in&nbsp;progress-yellow)
 
 
