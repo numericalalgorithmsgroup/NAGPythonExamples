@@ -19,24 +19,30 @@ shows an overall improvement of 13% while the rightmost section in green/blue sh
 
 # Content
 
+* [How to install the NAG Library for Python]()
+* [How to run the Jupyter Notebooks]()
+* [Useful links]()
+
+## Repository
+
 * [Second Order Cone Programming (SOCP)](./SOCP/)
-* [First order active set CG (FOAS)](./FOAS)
+* [First order active set CG (FOAS)](./FOAS/)
 * [Nonlinear Least-Squares (BXNL)](./BXNL)
 * [Semi-Definite Programming (SDP)](./SDP/)
 * [Derivative-Free Optimization (DFO)](./DFO/)
-* [Tips and Tricks in modelling](./modelling)
+* [Tips and Tricks in modelling](./modelling/)
 
 ## Examples (Remove)
 * [Minimizing the generalized Rosenbrock function using bound constrained optimization](./bounds_quasi_func_easy.ipynb)
-* [Linear Programming Demo](./LP_demo.ipynb)
-* [Model-based derivative free optimization](./DFO_noisy.ipynb)
+* move this into modelling [Linear Programming Demo](./LP_demo.ipynb)
+* move this into DFO [Model-based derivative free optimization](./DFO_noisy.ipynb)
 
 # How to install the NAG Library for Python
 
 In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 
-### Step 1. Downloading and Installing (`pip`)
-Installing the Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the Library
+### Step 1. Downloading and installing (`pip`)
+Installing the NAG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the NAG Library
 ```{bash}
 guest@nag-37:~$ python3 -m venv nag3
 guest@nag-37:~$ . nag3/bin/activate
@@ -52,8 +58,21 @@ or if you have Intel MKL, then use
 ```
 for Intel MKL-enabled NAG Library.
 
-### Step 2. Getting a Trial Licence
-The next step is to get the licensing info (**product code** and **KUSARI ID**) and request a lincense. From the same virtual terminal
+The output should be similar to
+```{bash}
+Collecting naginterfaces
+  Downloading https://www.nag.com/downloads/py/naginterfaces_nag/naginterfaces/naginterfaces-27.1.0.0-py2.py3-none-linux_x86_64.whl (55.8MB)
+    100% |████████████████████████████████| 55.8MB 21kB/s 
+Collecting numpy>=1.15 (from naginterfaces)
+  Downloading https://files.pythonhosted.org/packages/45/b2/6c7545bb7a38754d63048c7696804a0d947328125d81bf12beaa692c3ae3/numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl (13.4MB)
+    100% |████████████████████████████████| 13.4MB 70kB/s 
+Installing collected packages: numpy, naginterfaces
+Successfully installed naginterfaces-27.1.0.0 numpy-1.19.5
+```
+The output indicates that the installation was successful.
+
+### Step 2. Getting a trial licence
+The next step is to get the licensing info (**product code** and **KUSARI ID**) and use it to request a licence. From the same virtual terminal, try
 ```{bash}
 (nag3) guest@nag-37:~$ python -m naginterfaces.kusari
 ```
@@ -80,53 +99,51 @@ KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"
 ```
 The **two** important bits are the 
 
- 1. **product code** shown as **`underlying Library NLL6I271VL.`** which identifies the lincense to request, and
+ 1. **product code** shown as **`underlying Library NLL6I271VL.`** which identifies the licence to request, and
  
- 2. **Kusary ID** shown as **`KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"`** which idenfies the machine you are running the library on.
+ 2. **Kusary ID** shown as **`KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"`** which identifies the host you are running the library on.
  
- **Note** the **product code** might be different while the **Kusari ID** _will_ be different for your case.
+ **Note** that the **product code** and **Kusari ID** can be different from the previous example.
  
  With these, you are set to [contact NAG and request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library).
  
  The trial licence is a plain text chunk similar to
  ```
- NLL6I271VL TRIAL "Xu+++XjvgmyemlussawO0+++++" "++++vylBNlEagiaouoce----" &
-& "k5kissm+n+++++eyhH5gabf"
+ NLL6I271V TRIAL 2021/01/27 "RverXn0Pc-Ib?ctdgF=Wpis2j7I"
  ```
- So copy and save the text into the file `/home/guest/nag.key`.
+ Save or copy the text into the file `/home/guest/nag.key`.
  
- The final step is to make sure the licence is valid and the library is working as expected
+ The final step is to make sure the licence is valid and the library is working as expected.
  
-### Step 3. Testing the Library
-The last step is to make sure the licence was correctly stored and that the library is working correctly. From the same virtual terminal re-run Kusary licence module
+### Step 3. Testing the NAG Library
+The last step is to make sure the licence was correctly stored and that the NAG Library is working correctly. From the same virtual terminal re-run the Kusary licence module
 ```{bash}
-(nag3) andrews@olney:~$ python -m naginterfaces.kusari
+(nag3) guest@nag-37:~$ python -m naginterfaces.kusari
 ``` 
 This time the output should be similar to
 ```
+Licence available; the required NLL6I271VL licence key for this product is valid
+TRIAL licence, 27 days remaining (licence from file)
 ```
-Let's try some other more interesting example ([list of optimization examples](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#examples))
+Now let's try a more interesting example ([list of optimization examples](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#examples))
 
 This command runs the example for the [FOAS (First-Order Active set method) solver and minimizes the Rosenbrock 2D function](./FOAS).
 ```
 python -m naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex
 ```
+The source code of the previous example can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/_modules/naginterfaces/library/examples/opt/handle_solve_bounds_foas_ex.html#main).
 
 ### Running more examples
 
-All examples may be executed sequentially by running
-```
-python -m naginterfaces.library.examples
-```
 To display the full list of example source files on disk, but not run them, execute
 ```
 python -m naginterfaces.library.examples --locate
 ```
-Run
+All examples may be executed sequentially by running
 ```
-python -m naginterfaces.library.examples --help
+python -m naginterfaces.library.examples
 ```
-to see any additional usage.
+Run `python -m naginterfaces.library.examples --help` to see any additional usage.
 
 <!---# How to run the Jupyter notebooks examples--->
 
