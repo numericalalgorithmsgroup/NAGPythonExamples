@@ -1,6 +1,6 @@
 [![NAG Logo](../nag_logo.png)](https://www.nag.com)
 
-# Local Optimization
+# Local Optimization<a name=top></a>
 
 Here you will find a variety of resources (mostly Python notebooks) related to the use of our optimization routines and modelling suite. If you are new to NAG's optimization solvers we highly recomment to read the [E04 chapter](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html) of the [NAG](https://www.nag.com) Library which is dedicated to local optimization. While if you are new to NAG Library for Python we encourage to review the [Python documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html). 
 
@@ -17,13 +17,13 @@ If you are already familiar with NAG's optimization offering and just need to fi
 red line shows the final solution. (right) Optimization of a wing section: red represent the baseline, center section in yellow 
 shows an overall improvement of 13% while the rightmost section in green/blue shows a further 33% improvement. 
 
-# Content
+# Content<a name=content></a>
 
-* [How to install the NAG Library for Python]()
-* [How to run the Jupyter Notebooks]()
-* [Useful links]()
+* [How to install the NAG Library for Python](#install)
+* [How to run the Jupyter notebook examples](#jupyter)
+* [Useful links](#links)
 
-## Repository
+### Repository
 
 * [Second Order Cone Programming (SOCP)](./SOCP/)
 * [First order active set CG (FOAS)](./FOAS/)
@@ -32,12 +32,12 @@ shows an overall improvement of 13% while the rightmost section in green/blue sh
 * [Derivative-Free Optimization (DFO)](./DFO/)
 * [Tips and Tricks in modelling](./modelling/)
 
-## Examples (Remove)
+### Examples (Remove)
 * [Minimizing the generalized Rosenbrock function using bound constrained optimization](./bounds_quasi_func_easy.ipynb)
 * move this into modelling [Linear Programming Demo](./LP_demo.ipynb)
 * move this into DFO [Model-based derivative free optimization](./DFO_noisy.ipynb)
 
-# How to install the NAG Library for Python
+# How to install the NAG Library for Python<a name=install></a>
 
 In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 
@@ -145,9 +145,9 @@ python -m naginterfaces.library.examples
 ```
 Run `python -m naginterfaces.library.examples --help` to see any additional usage.
 
-<!---# How to run the Jupyter notebooks examples--->
+# How to run the Jupyter notebook examples<a name=jupyter></a>
 
-# Useful links
+# Useful links<a name=links></a>
 
 * [NAG Library for Python Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
 * [NAG Library Optimization (Chapter E04) Introduction](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html)
@@ -156,6 +156,8 @@ Run `python -m naginterfaces.library.examples --help` to see any additional usag
 * [Request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library)
 * [Kusari licence module Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
 
+
+**[Back to Top](#top)**
 <!-- # References
 * Kowalik J S and Osborne, M R (1968) _Methods for unconstrained optimization problems_. New York, American Elsevier Pub. Co
 --!>
