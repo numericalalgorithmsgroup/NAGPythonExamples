@@ -52,9 +52,19 @@ finite difference estimations for the gradient.
   * [Noisy problem notebook.](DFO_noisy.ipynb)
 
 ## More information 
- * [Informative Leaflet]
- * [DFO in the NAG Library for Python]
- * Examples [ [Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex.main) | [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04kfc.html#example) | [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04kff.html#example) ]
+
+ * [Informative Leaflet](https://www.nag.com/content/derivative-free-optimization-dfo)
+ 
+ * Blog post from the OptCorner [The price of derivatives - Derivative-free Optimization](https://www.nag.com/blog/optcorner-price-derivatives-derivative-free-optimization)
+ 
+ * [DFO/DFLS in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfls)
+
+ * Examples [ [Python example](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_dfls_ex.main) | [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ffc.html#example) | [Fortran 90 example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04fff.html#example) ]
+
+ * [DFO/DFNO in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfno)
+ 
+ * Examples [ [Python example](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_dfno_ex.main) | [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04jdc.html#example) | [Fortran 90 example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04jdf.html#example) ]
+
 
 ## References
 
