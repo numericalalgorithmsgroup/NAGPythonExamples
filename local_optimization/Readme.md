@@ -93,7 +93,7 @@ NAG_KUSARI_FILE=""
 File /home/guest/nag.key does not exist
 -------------------------------------------------------------------------------
 Error: Licence not found; this product requires a key for NLL6I271VL
-The above information has been generated on machine olney.nag.co.uk
+The above information has been generated on machine nag-37
 For information on how to obtain a licence, please see
 https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html
 KUSARI ID = "ADLXt-adEclJLmvnxlrYfsseteZoo,mRLd"
