@@ -50,15 +50,18 @@ A mean-variance model with probability constraint using randomly generated data.
 * [robust_lp.ipynb](./robust_lp.ipynb) Jupyter Notebook
 * [robust_lp.html](./static/robust_lp.html) Static html version
 
-# Data
+## Data
 
 * [stock_price.pkl](./data/stock_price.pkl) - pickled data file contains daily prices of 30 stocks in DJIA from March 2018 to March 2019. It is used to estimate out-of-sample expected return and covariance matrix.
 * [djia_close_price.csv](./data/djia_close_price.csv) - CSV version of daily prices of 30 stocks in DJIA from March 2018 to March 2019.
 
-# Poster
+## Poster
 
 A 2019 poster discussing NAG's SOCP functionality is [available on the NAG website](https://www.nag.com/market/posters/socp.pdf)
 
 # Obtaining the NAG Library for Python
 
-Instructions for how to download, install and license the NAG Library for Python can be found at https://github.com/numericalalgorithmsgroup/NAGPythonExamples#nag-library-for-python-installation
+ * Instructions on [how to install the NAG Library for Python](../Readme.md#install)
+ * Instructions on [how to run the Jupyter notebooks in the Repository](../Readme.md#jupyter)
+
+<!-- Instructions for how to download, install and license the NAG Library for Python can be found at https://github.com/numericalalgorithmsgroup/NAGPythonExamples#nag-library-for-python-installation-->
