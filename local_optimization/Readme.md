@@ -152,14 +152,14 @@ Run `python -m naginterfaces.library.examples --help` to see any additional usag
 This section briefly illustrates how to setup a host in order to open and run the [Jupyter notebooks](https://jupyter.org/) provided in this repository.
 Before running the notebooks make sure the [NAG Library is installed and working](#install). Before starting it is advisable to read [Jupyter's installation page](https://jupyter.org/install.html).
 
-You can [view a static render of the notebooks using Jupyter's nbviewer here](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/) 
+<!-- You can [view a static render of the notebooks using Jupyter's nbviewer here](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/) 
 [![Jupyter](https://img.shields.io/badge/launch-nbviewer-blue?logo=jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/)
 or alternatively use [Binder](https://mybinder.org/) to [view them here](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD) 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD).
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD). -->
 
 
-### Installing Jupyter
-To install jupyter, launch a terminal and activate the virtual environment used to install the NAG Library for Python
+### Installing Jupyter notebook
+To install Jupyter, launch a terminal and activate the virtual environment used to install the NAG Library for Python
 ```{bash}
 guest@nag-37:~$ . nag3/bin/activate
 (nag3) guest@nag-37:~$ pip install notebook
