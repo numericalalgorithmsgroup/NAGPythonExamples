@@ -188,7 +188,7 @@ and open it using `jupyter-notebook`
 [I 12:24:07.336 NotebookApp] http://localhost:8888/?token=f1836a06799a92f25ef9966439bf3491b2f0960dcb51806d
 ...
 ```
-This command will fire-up your web browser and launch the web gui and open the `rosenbrock2d.ipynb` notebook and should have an output similar to
+This command will fire-up your web browser and open the `rosenbrock2d.ipynb` notebook, the window should be similar to
 
 
 ![Notebook screenshot](Notebooks/screenshot.png)
