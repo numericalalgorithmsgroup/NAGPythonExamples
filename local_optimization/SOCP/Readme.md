@@ -1,3 +1,5 @@
+[![NAG Logo](../../nag_logo.png)](https://www.nag.com)
+
 # Second Order Cone Programming
 
 [Second Order Cone Programming (SOCP)](https://en.wikipedia.org/wiki/Second-order_cone_programming) is convex optimization which extends linear programming (LP) with second-order (Lorentz or the ice cream) cones. Search region of the solution is the intersection of an affine
