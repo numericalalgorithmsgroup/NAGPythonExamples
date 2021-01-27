@@ -33,10 +33,8 @@ based on weight and strengh of the piece.
 * [Derivative-Free Optimization (DFO)](./DFO/)
 * [Tips and Tricks in modelling](./modelling/)
 
-### Examples (Remove)
+### Examples (FIXME: Remove section)
 * [Minimizing the generalized Rosenbrock function using bound constrained optimization](./bounds_quasi_func_easy.ipynb)
-* move this into modelling [Linear Programming Demo](./LP_demo.ipynb)
-* move this into DFO [Model-based derivative free optimization](./DFO_noisy.ipynb)
 
 # How to install the NAG Library for Python<a name=install></a>
 
