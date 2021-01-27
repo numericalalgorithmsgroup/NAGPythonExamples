@@ -117,7 +117,7 @@ The **two** important bits are the
  The final step is to make sure the licence is valid and the library is working as expected.
  
 ### Step 3. Testing the NAG Library
-The last step is to make sure the licence was correctly stored and that the NAG Library is working correctly. From the same virtual terminal re-run the Kusary licence module
+The last step is to make sure the licence was correctly stored and that the NAG Library is working correctly. From the same virtual terminal re-run the Kusari licence module
 ```{bash}
 (nag3) guest@nag-37:~$ python -m naginterfaces.kusari
 ``` 
