@@ -29,6 +29,7 @@ can quickly become impractical or too computationally expensive.
 
 
 ![2 steps of DFO algorithm](animation.gif)
+
 **Figure 1.** Animation showing 2 iterations of a model-based DFO algorithm [`handle_solve_dfls`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfls).
 
 
