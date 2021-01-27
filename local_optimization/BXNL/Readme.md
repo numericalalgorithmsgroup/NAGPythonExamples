@@ -1,10 +1,13 @@
-[![NAG](https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/nag_logo.png)](https://www.nag.co.uk)
+[![NAG Logo](../../nag_logo.png)](https://www.nag.com)
 
 # Nonlinear Least-Squares Trust-Region Method (BXNL)
 
+[[`handle_solve_bxnl`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bxnl) | [`e04ggf`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) | 
+[`e04ggc`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ]
+
 Data fitting and calibrating parameters of complex numerical models is one of the most common
 problems found in numerous industries such as  physics, space exploration, simulations, engineering, amongs many others. 
-[NAG](https://www.nag.co.uk/) introduces to the [NAG Library at Mark 27.1](https://www.nag.co.uk/content/nag-library) a novel [nonlinear least-square](https://en.wikipedia.org/wiki/Non-linear_least_squares) [trust-region solver](https://en.wikipedia.org/wiki/Trust_region) for unconstrained or bound-constrained fitting problems, [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)). It offers a significant variety of algorithms and regularisation techniques.
+[NAG](https://www.nag.co.uk/) introduces to the [NAG Library at Mark 27.1](https://www.nag.co.uk/content/nag-library) a novel [nonlinear least-square](https://en.wikipedia.org/wiki/Non-linear_least_squares) [trust-region solver](https://en.wikipedia.org/wiki/Trust_region) for unconstrained or bound-constrained fitting problems, [`handle_solve_bxnl`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bxnl) ([`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html)). It offers a significant variety of algorithms and regularisation techniques.
 
 The solver [`e04gg`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) is aimed at small to medium sized fitting problems (up to 1000s of parameters) bound-constrained nonlinear least-squares problems 
 and is also part of the [NAG Optimization Modelling Suite](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite) common handle interface. It offers clarity and consistency of the interface of the solvers within the suite, making it trivial to switch among compatible solvers.
@@ -25,7 +28,7 @@ Figure 1 shows an illustrative simple problem of data fitting ([Jupyter Notebook
 # More Info
  1. [BXNL information leaflet](https://www.nag.com/content/faster-data-fitting-solver)
  2. [BXNL in the NAG Library for Python](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_bxnl)
- 3. [BXNL documentation page](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html) [[Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_disable_ex.main), [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html#example), [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html#example)]
+ 3. [BXNL Python documentation page](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.handle_solve_bxnl.html#naginterfaces.library.opt.handle_solve_bxnl) [[Python example](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_disable_ex.main), [C example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ggc.html#example), [Fortran example](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04ggf.html#example)]
  
  # Unfolding Nuclear Track Data
  
@@ -96,4 +99,10 @@ represent less functions and gradients calls.
  * Adachi S, Iwata S, Nakatsukasa Y, and Takeda A (2015) _Solving the trust region subproblem by a generalized eigenvalue problem_. Technical report, METR 2015-14. Mathematical Engineering, The University of Tokyo https://www.keisu.t.u-tokyo.ac.jp/data/2015/METR15-14.pdf
  * Conn A R, Gould N I M and Toint Ph L (2000) _Trust Region Methods_. SIAM, Philadephia
 
+
 <!-- foot banner for commercial material -->
+
+# Obtaining the NAG Library for Python
+
+ * Instructions on [how to install the NAG Library for Python](../Readme.md#install)
+ * Instructions on [how to run the Jupyter notebooks in the Repository](../Readme.md#jupyter)
