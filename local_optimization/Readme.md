@@ -32,6 +32,8 @@ based on weight and strengh of the piece.
 * [Semi-Definite Programming (SDP)](./SDP/)
 * [Derivative-Free Optimization (DFO)](./DFO/)
 * [Tips and Tricks in modelling](./modelling/)
+* [Assortment of example notebooks](./Notebooks)  ![Jupyter](https://img.shields.io/badge/NAG-Work&nbsp;in&nbsp;progress-yellow)
+
 
 ### Examples (FIXME: Remove section)
 * [Minimizing the generalized Rosenbrock function using bound constrained optimization](./bounds_quasi_func_easy.ipynb)
