@@ -42,14 +42,14 @@ based on weight and strengh of the piece.
 
 In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 
-### Step 1. Downloading and installing (`pip`)
+### Step 1. Downloading and installing
 Installing the NAG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the NAG Library
 ```{bash}
 guest@nag-37:~$ python3 -m venv nag3
 guest@nag-37:~$ . nag3/bin/activate
 (nag3) guest@nag-37:~$
 ```
-
+Now use `pip` to install the NAG Library for Python
 ```{bash}
 (nag3) guest@nag-37:~$ python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginterfaces_nag naginterfaces
 ```
