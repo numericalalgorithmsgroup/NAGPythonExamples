@@ -145,15 +145,47 @@ python -m naginterfaces.library.examples
 ```
 Run `python -m naginterfaces.library.examples --help` to see any additional usage.
 
+
+
 # How to run the Jupyter notebook examples<a name=jupyter></a>
 
 This section briefly illustrates how to setup a host in order to open and run the [Jupyter notebooks](https://jupyter.org/) provided in this repository.
-Before running the notebooks make sure the [NAG Library is installed and working](#install). Before starting it is advisable to read [Jupyter's installation guide]().
+Before running the notebooks make sure the [NAG Library is installed and working](#install). Before starting it is advisable to read [Jupyter's installation page](https://jupyter.org/install.html).
 
-You can [view a static render of the notebooks using Jupiter's nbviewer here](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/) 
-[![Jupyter](https://img.shields.io/badge/launch-nbviewer-blue?logo=jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/).
-Alternatively, use [Binder](https://mybinder.org/) to view a [render of the notebooks here](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD) 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD)
+You can [view a static render of the notebooks using Jupyter's nbviewer here](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/) 
+[![Jupyter](https://img.shields.io/badge/launch-nbviewer-blue?logo=jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/)
+or alternatively use [Binder](https://mybinder.org/) to [view them here](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/numericalalgorithmsgroup/NAGPythonExamples/HEAD).
+
+
+### Installing Jupyter
+To install jupyter, launch a terminal and activate the virtual environment used to install the NAG Library for Python
+```{bash}
+guest@nag-37:~$ . nag3/bin/activate
+(nag3) guest@nag-37:~$ pip install notebook
+Collecting notebook
+  Downloading https://files.pythonhosted.org/packages/74/19/50cd38acf22e33370d01fef764355f1e3517f6e12b4fceb8d434ece4f8fd/notebook-6.2.0-py3-none-any.whl (9.5MB)
+    100% |████████████████████████████████| 9.5MB 115kB/s 
+Collecting argon2-cffi (from notebook)
+...
+Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwidth-0.2.5
+```
+This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example
+### Running the notebook examples
+Once `pip` finished to install `notebook` all the dependencies, it is time start up the notebook interface  
+```{bash}
+(nag3) guest@nag-37:~$ jupyter-notebook
+[I 05:13:44.313 NotebookApp] Serving notebooks from local directory: /home/guest
+[I 05:13:44.313 NotebookApp] 0 active kernels
+[I 05:13:44.313 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 05:13:44.313 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+```
+This command will fire-up your web browser and launch the notebook service. Use the gui interface to open up any of the notebooks provided in this repository
+
+
+
+
+
 
 
 # Useful links<a name=links></a>
