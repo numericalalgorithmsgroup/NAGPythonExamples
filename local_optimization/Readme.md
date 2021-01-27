@@ -172,7 +172,7 @@ Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwid
 ```
 This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example
 ### Running the notebook examples
-Once `pip` finished to install `notebook` all the dependencies, it is time start up the notebook interface  
+Once `pip` finished to install `notebook` and all the dependencies, it is time start up the notebook interface  
 ```{bash}
 (nag3) guest@nag-37:~$ jupyter-notebook
 [I 05:13:44.313 NotebookApp] Serving notebooks from local directory: /home/guest
