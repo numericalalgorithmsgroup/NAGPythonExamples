@@ -2,18 +2,19 @@
 
 # Derivative-Free Optimization (DFO)
 
-* Calibration: Derivative Nonlinear least squares (DFLS) 
+DFO solvers are aimed at optimizing _black box_ models and can handle either calibration (nonlinear least squares) problems (DFLS) 
+or problems with a generic objective function (DFNO).
+
+* Calibration: DFLS (Derivative Nonlinear least squares)
 [[`handle_solve_dfls`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfls) | 
 [`e04fff`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04fff.html) | 
 [`e04ffc`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04ffc.html) ]
 
- * Derivative-Free Nonlinear Optimization (DFNO) 
+ * DFNO (Derivative-Free Nonlinear Optimization) 
  [[`handle_solve_dfno`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfno) | 
  [`e04jdf`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/flhtml/e04/e04jdf.html) | 
 [`e04jdc`](https://www.nag.co.uk/numeric/nl/nagdoc_latest/clhtml/e04/e04jdc.html) ]
 
-DFO solvers are aimed at optimizing _black box_ models and can handle either calibration (nonlinear least squares) problems 
-or problems with a generic objective function.
 
 Optimizing complex numerical models is one of the most common problems found in the industry (finance, multi-physics simulations, 
 engineering, etc.). To solve these optimization problems with a standard optimization algorithm such as 
