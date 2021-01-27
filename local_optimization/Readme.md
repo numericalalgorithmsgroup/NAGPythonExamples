@@ -42,6 +42,8 @@ based on weight and strengh of the piece.
 
 In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 
+**Note** Before starting make sure you have access to a host that has Python 3 (3.4 or more recent).
+
 ### Step 1. Downloading and installing
 Installing the NAG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the NAG Library
 ```{bash}
@@ -185,7 +187,8 @@ Collecting argon2-cffi (from notebook)
 ...
 Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwidth-0.2.5
 ```
-This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example.
+This indicates that Jupyter and matplotlib were successfully installed. The next section shows how to start the notebok interface and open an example.
+
 ### Running the notebook examples
 To run an example, grab a copy of the notebook of interest and start up the notebook interface.
 For example, download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) notebook `rosenbrock2d.ipynb` into the current directory
