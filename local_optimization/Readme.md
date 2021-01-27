@@ -170,10 +170,10 @@ Collecting argon2-cffi (from notebook)
 ...
 Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwidth-0.2.5
 ```
-This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example
+This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example.
 ### Running the notebook examples
-Once `pip` finished to install `notebook` and all the dependencies, it is time to grab a copy of the notebook of interest and start up the notebook interface.
-In this example we download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) file `rosenbrock2d.ipynb` into the current working directory
+To run an example, grab a copy of the notebook of interest and start up the notebook interface.
+First, in this example we download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) file `rosenbrock2d.ipynb` into the current directory
 ```{bash}
 (nag3) guest@nag-37:~$ curl -O https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/local_optimization/FOAS/rosenbrock2d.ipynb
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
