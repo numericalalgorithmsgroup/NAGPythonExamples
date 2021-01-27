@@ -189,6 +189,8 @@ and open it using `jupyter-notebook`
 ...
 ```
 This command will fire-up your web browser and launch the web gui and open the `rosenbrock2d.ipynb` notebook and should have an output similar to
+
+
 ![Notebook screenshot](Notebooks/screenshot.png)
 
 
