@@ -29,10 +29,10 @@ can quickly become impractical or too computationally expensive.
 
 NAG's model-based DFO solvers for DFLS and DFNO present a number of attractive features:
 
- * Proved resilience to noise.
- * Solvers are able to start making progress with as few as two objective evaluations;
- * Integrated to the NAG Optimization Modeling Suite with simple interfaces for the solvers and related routines;
- * Optional reverse communication interface
+ * Proved resilience to noise,
+ * Solvers are able to start making progress with as few as two objective evaluations,
+ * Integrated to the NAG Optimization Modeling Suite with simple interfaces for the solvers and related routines,
+ * Optional reverse communication interface.
 
 ![2 steps of DFO algorithm](animation.gif)
 
