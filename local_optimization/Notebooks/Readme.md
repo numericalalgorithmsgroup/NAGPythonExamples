@@ -1,4 +1,4 @@
-[![NAG Logo](../nag_logo.png)](https://www.nag.com)
+[![NAG Logo](../../nag_logo.png)](https://www.nag.com)
 
 # Local Optimization Jupyter notebooks
 
