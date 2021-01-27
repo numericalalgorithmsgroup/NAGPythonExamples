@@ -52,10 +52,10 @@ or if you have Intel MKL, then use
 ```
 for Intel MKL-enabled NAG Library.
 
-### Step 2. Getting a Trial License
+### Step 2. Getting a Trial Licence
 The next step is to get the licensing info (**product code** and **KUSARI ID**) and request a lincense. From the same virtual terminal
 ```{bash}
-(nag3) andrews@olney:~$ python -m naginterfaces.kusari
+(nag3) guest@nag-37:~$ python -m naginterfaces.kusari
 ```
 The output should be similar to
 ```
@@ -86,7 +86,7 @@ The **two** important bits are the
  
  **Note** the **product code** might be different while the **Kusari ID** _will_ be different for your case.
  
- With these, you are set to [contact NAG and request a trial license](https://www.nag.com/content/software-trials?product=NAG%20Library).
+ With these, you are set to [contact NAG and request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library).
  
  The trial licence is a plain text chunk similar to
  ```
@@ -98,7 +98,7 @@ The **two** important bits are the
  The final step is to make sure the licence is valid and the library is working as expected
  
 ### Step 3. Testing the Library
-The last step is to make sure the licence was correctly stored and that the library is working correctly. From the same virtual terminal re-run kusary
+The last step is to make sure the licence was correctly stored and that the library is working correctly. From the same virtual terminal re-run Kusary licence module
 ```{bash}
 (nag3) andrews@olney:~$ python -m naginterfaces.kusari
 ``` 
@@ -135,9 +135,9 @@ to see any additional usage.
 * [NAG Library for Python Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
 * [NAG Library Optimization (Chapter E04) Introduction](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html)
 * [Optimization Index](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/indexes/optimization.html) 
-* [Decision Tree for selecting the right Optimization solver](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#dtree)
-* [Request a Trial Licence](https://www.nag.com/content/software-trials?product=NAG%20Library)
-* [kurari license module documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
+* [Decision Tree for selecting the right optimization solver](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#dtree)
+* [Request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library)
+* [Kusari licence module Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
 
 <!-- # References
 * Kowalik J S and Osborne, M R (1968) _Methods for unconstrained optimization problems_. New York, American Elsevier Pub. Co
