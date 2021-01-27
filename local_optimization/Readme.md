@@ -162,7 +162,7 @@ or alternatively use [Binder](https://mybinder.org/) to [view them here](https:/
 To install Jupyter, launch a terminal and activate the virtual environment used to install the NAG Library for Python
 ```{bash}
 guest@nag-37:~$ . nag3/bin/activate
-(nag3) guest@nag-37:~$ pip install notebook
+(nag3) guest@nag-37:~$ pip install notebook matplotlib
 Collecting notebook
   Downloading https://files.pythonhosted.org/packages/74/19/50cd38acf22e33370d01fef764355f1e3517f6e12b4fceb8d434ece4f8fd/notebook-6.2.0-py3-none-any.whl (9.5MB)
     100% |████████████████████████████████| 9.5MB 115kB/s 
@@ -172,15 +172,24 @@ Successfully installed jupyter-client-6.1.11 jupyterlab-pygments-0.1.2 ... wcwid
 ```
 This indicates that Jupyter was successfully installed. The next section shows how to start the notebok interface and open an example
 ### Running the notebook examples
-Once `pip` finished to install `notebook` and all the dependencies, it is time start up the notebook interface  
+Once `pip` finished to install `notebook` and all the dependencies, it is time to grab a copy of the notebook of interest and start up the notebook interface.
+In this example we download the [Rosenbrock 2D optimization example](./FOAS/rosenbrock2d.ipynb) file `rosenbrock2d.ipynb` into the current working directory
 ```{bash}
-(nag3) guest@nag-37:~$ jupyter-notebook
-[I 05:13:44.313 NotebookApp] Serving notebooks from local directory: /home/guest
-[I 05:13:44.313 NotebookApp] 0 active kernels
-[I 05:13:44.313 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
-[I 05:13:44.313 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(nag3) guest@nag-37:~$ curl -O https://raw.githubusercontent.com/numericalalgorithmsgroup/NAGPythonExamples/master/local_optimization/FOAS/rosenbrock2d.ipynb
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 61961  100 61961    0     0   382k      0 --:--:-- --:--:-- --:--:--  382k
 ```
-This command will fire-up your web browser and launch the notebook service. Use the gui interface to open up any of the notebooks provided in this repository
+and open it using `jupyter-notebook`
+```{bash}
+(nag3) guest@nag-37:~$ jupyter-notebook rosenbrock2d.ipynb
+[I 12:24:07.336 NotebookApp] Serving notebooks from local directory: /home/guest
+[I 12:24:07.336 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 12:24:07.336 NotebookApp] http://localhost:8888/?token=f1836a06799a92f25ef9966439bf3491b2f0960dcb51806d
+...
+```
+This command will fire-up your web browser and launch the web gui and open the `rosenbrock2d.ipynb` notebook and should have an output similar to
+![Notebook screenshot](Notebooks/screenshot.png)
 
 
 
