@@ -1,9 +1,9 @@
 [![NAG Logo](../../nag_logo.png)](https://www.nag.com)
 
-# Derivative-Free Optimization (DFO)
+# Derivative-Free Optimization ([DFO](https://en.wikipedia.org/wiki/Derivative-free_optimization))
 
-DFO solvers are aimed at optimizing _black box_ models and can handle either calibration (nonlinear least squares) problems (DFLS) 
-or problems with a generic objective function (DFNO).
+[DFO](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#derivatives) solvers are aimed at optimizing _black box_ models and can handle either [calibration (nonlinear least squares)](https://en.wikipedia.org/wiki/Non-linear_least_squares) problems (DFLS) 
+or [problems with a generic objective function](https://en.wikipedia.org/wiki/Nonlinear_programming) (DFNO).
 
 * Calibration: DFLS (Derivative Nonlinear least squares)
 [[`handle_solve_dfls`](https://www.nag.co.uk/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.opt.handle_solve_dfls) | 
@@ -28,7 +28,7 @@ The alternative, estimating derivatives via [finite differences](https://en.wiki
 can quickly become impractical or too computationally expensive. Under these circumstances, an attractive optimization solver that does not 
 require the user to provide any derivatives is the model-based DFO solver.
 
-NAG's model-based DFO solvers for DFLS and DFNO present a number of attractive features:
+NAG's model-based [DFO](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#derivatives) [solvers for DFLS and DFNO]() present a number of attractive features:
 
  * Proved resilience to noise,
  * Solvers are able to start making progress with as few as two objective evaluations,
