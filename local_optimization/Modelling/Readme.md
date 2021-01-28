@@ -19,10 +19,7 @@ width="100" height="100px" alt="Xmas Tree Plot"/></a></td>
 * **Demo** [Linear Programming (LP)](LP_demo.ipynb).
    
    Tiny and Cute LP problem...
-* **Demo** [Nonlinear calibration (data fitting)](handle_disable_ex.ipynb).
-
-   This demo shows useful features of the [NAG Optimization Modelling Suite (NOMS)](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite) in [Nonlinear Least-squares]() problem.
-   
+* **Demo** [Nonlinear calibration (data fitting)](handle_disable_ex.ipynb). 
 <table><tr>
 <td><a href="handle_disable_ex.ipynb">
 <img src="../images/nlls.png" 
