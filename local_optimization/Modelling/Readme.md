@@ -7,10 +7,12 @@ In this folder you will find notebook examples, tips and tricks related to model
 * **Christmas Special** [How to decorate your Christmas tree (Notebook)](christmas_demo.ipynb) 
    or view the [Blog-post](https://www.nag.com/blog/optcorner-christmas-edition).
 <table><tr>
-<td valign="top">See how optimization can help to decorate a Christmas tree...</td>
+
 <td><a href="christmas_demo.ipynb">
 <img src="../images/xmas_tree.png" 
-width="362" height="248px" alt="Xmas Tree Plot"/></a></td>
+width="100" height="100px" alt="Xmas Tree Plot"/></a></td>
+
+<td valign="top">See how optimization can help to decorate a Christmas tree...</td>
 </tr></table>  
    
    
@@ -22,10 +24,12 @@ width="362" height="248px" alt="Xmas Tree Plot"/></a></td>
    This demo shows useful features of the [NAG Optimization Modelling Suite (NOMS)](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite) in [Nonlinear Least-squares]() problem.
    
 <table><tr>
-   <td valign="top">This demo shows useful features of the <a href="https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite">NAG Optimization Modelling Suite (NOMS)</a> in a Nonlinear Least-squares problem.</td>
 <td><a href="handle_disable_ex.ipynb">
 <img src="../images/nlls.png" 
-width="386" height="248px" alt="Data fitting Plot"/></a></td>
+width="100" height="80px" alt="Data fitting Plot"/></a></td>
+   
+<td valign="top">This demo shows useful features of the <a href="https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#optsuite">NAG Optimization Modelling Suite (NOMS)</a> in a Nonlinear Least-squares problem.</td>
+   
 </tr></table>  
    
    
