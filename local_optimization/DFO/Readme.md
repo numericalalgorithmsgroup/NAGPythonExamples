@@ -25,13 +25,14 @@ of the model's derivatives.
 If exact derivatives are easy to compute then using derivative-based methods is preferable. However, explicitly writing the derivatives 
 or applying [AD methods](https://www.nag.com/content/algorithmic-differentiation-software) might be impossible if the model is a black box. 
 The alternative, estimating derivatives via [finite differences](https://en.wikipedia.org/wiki/Finite_difference#Relation_with_derivatives), 
-can quickly become impractical or too computationally expensive.
+can quickly become impractical or too computationally expensive. Under these circumstances, an attractive optimization solver that does not 
+require the user to provide any derivatives is the model-based DFO solver.
 
 NAG's model-based DFO solvers for DFLS and DFNO present a number of attractive features:
 
  * Proved resilience to noise,
  * Solvers are able to start making progress with as few as two objective evaluations,
- * Integrated to the NAG Optimization Modeling Suite with simple interfaces for the solvers and related routines,
+ * Integrated to the [NAG Optimization Modeling Suite (NOMS)](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html#optsuite) with simple interfaces for the solvers and related routines,
  * Optional reverse communication interface.
 
 ![2 steps of DFO algorithm](animation.gif)
