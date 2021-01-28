@@ -1,6 +1,6 @@
 [![NAG Logo](../../nag_logo.png)](https://www.nag.com)
 
-# Derivative-Free Optimization ([DFO](https://en.wikipedia.org/wiki/Derivative-free_optimization))
+# Derivative-Free Optimization ([DFO](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#derivatives))
 
 [DFO](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#derivatives) solvers are aimed at optimizing _black box_ models and can handle either [calibration (nonlinear least squares)](https://en.wikipedia.org/wiki/Non-linear_least_squares) problems (DFLS) 
 or [problems with a generic objective function](https://en.wikipedia.org/wiki/Nonlinear_programming) (DFNO).
