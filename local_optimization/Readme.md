@@ -1,22 +1,4 @@
-[![NAG Logo](../nag_logo.png)](https://www.nag.com)
-
-# Local Optimization<a name=top></a>
-
-Here you will find a variety of resources (mostly [Jupyter notebooks](https://jupyter.org/)) related to the use of our optimization routines and modelling suite. If you are new to NAG's optimization solvers we highly recomment to read the [E04 chapter](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html) of the [NAG](https://www.nag.com) Library which is dedicated to local optimization. While if you are new to NAG Library for Python we encourage to review the [NAG Python documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html) and read the sections on [How to install the NAG Library for Python](#install) and [How to run the Jupyter notebook examples](#jupyter) of this `Readme`. 
-
-If you are already familiar with NAG's optimization offering and just need to find the right solver to use for your problem, then we recommend reviewing the [Optimization Index](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/indexes/optimization.html) or the [Decision Tree for selecting the right Optimization solver](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#dtree).
-
-
-<table><tr>
-<td><img src="./images/dfo_calib.png" width="412px" alt="DFO Calibration example"/></td>
-  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
- <td><img src="./images/wingsection.png" width="412px" alt="Optimization example of a wing section"/></td>
-</tr></table>
-
-**Figure 1.** Applied optimization examples. (left) DFO nonlinear least-square calibration for the Kowalik and Osborne function, 
-red line shows the final solution. (right) Optimization of a wing section struct: red represent the baseline design, center section in yellow 
-shows a design with an overall improvement of 13% while the rightmost section in green/blue shows design with a further 33% improvement. Improvement metric is
-based on weight and strengh of the piece.
+![NAG Logo](../nag_logo.png)
 
 # Content<a name=content></a>
 
