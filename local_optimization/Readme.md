@@ -52,7 +52,7 @@ Now use `pip` to install the NAG Library for Python
 ```{bash}
 (nag3) guest@nag-37:~$ python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginterfaces_nag naginterfaces
 ```
-or if you prefer the version of the package that relies on Intel MKLfor optimized linear algebra routines, then use
+or if you prefer the version of the package that relies on Intel MKL for optimized linear algebra routines, then use
 ```{bash}
 (nag3) guest@nag-37:~$ python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginterfaces_mkl naginterfaces
 ```
