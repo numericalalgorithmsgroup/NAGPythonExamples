@@ -30,8 +30,8 @@ require the user to provide any derivatives is the model-based DFO solver.
 
 NAG's model-based [DFO](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#derivatives) [solvers for DFLS and DFNO]() present a number of attractive features:
 
- * Proved resilience to noise,
- * Solvers are able to start making progress with as few as two objective evaluations,
+ * Proved resilient to noise,
+ * The least-square solver is able to start making progress with as few as two objective evaluations,
  * Integrated to the [NAG Optimization Modeling Suite (NOMS)](https://www.nag.com/numeric/nl/nagdoc_latest/clhtml/e04/e04intro.html#optsuite) with simple interfaces for the solvers and related routines,
  * Optional reverse communication interface.
 
