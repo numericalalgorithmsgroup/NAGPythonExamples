@@ -42,7 +42,7 @@ In this section we illustrate how to install the NAG Library for Python, request
 **Note** Before starting make sure you have access to a host that has Python 3 (3.4 or more recent).
 
 ### Step 1. Downloading and installing
-Installing the NAG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the NAG Library
+Installing the NAG Library is done using the `pip` package manager, fire-up a terminal with [Bash](https://www.gnu.org/software/bash/) and create a Python 3 virtual environment where to install and test the NAG Library
 ```{bash}
 guest@nag-37:~$ python3 -m venv nag3
 guest@nag-37:~$ . nag3/bin/activate
