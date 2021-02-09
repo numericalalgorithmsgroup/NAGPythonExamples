@@ -15,7 +15,7 @@ If you are already familiar with NAG's optimization offering and just need to fi
 
 **Figure 1.** Applied optimization examples. (left) DFO nonlinear least-square calibration for the Kowalik and Osborne function, 
 red line shows the final solution. (right) Nonlinear least-squares fitting example, experimental data histogram (blue bars) is fitted with an 
-aggregated model (green curve) and unfolded models (blue and red curves). Optimal parameter values are reported in the legend, for more details see [here](./BXNL/Readme.md).
+aggregated model (green curve) while the unfolded models are the blue and red curves. Optimal parameter values are reported in the legend, for more details see [here](./BXNL/Readme.md#unfolding-nuclear-track-data).
 
 # Content<a name=content></a>
 
