@@ -10,13 +10,12 @@ If you are already familiar with NAG's optimization offering and just need to fi
 <table><tr>
 <td><img src="./images/dfo_calib.png" width="412px" alt="DFO Calibration example"/></td>
   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
- <td><img src="./images/wingsection.png" width="412px" alt="Optimization example of a wing section"/></td>
+ <td><img src="./BXNL/images/fig-unfolding.png" width="412px" alt="Nonlinear least-squares callibration example (distribution unfolding)"/></td>
 </tr></table>
 
 **Figure 1.** Applied optimization examples. (left) DFO nonlinear least-square calibration for the Kowalik and Osborne function, 
-red line shows the final solution. (right) Optimization of a wing section struct: red represent the baseline design, center section in yellow 
-shows a design with an overall improvement of 13% while the rightmost section in green/blue shows design with a further 33% improvement. Improvement metric is
-based on weight and strengh of the piece.
+red line shows the final solution. (right) Nonlinear least-squares fitting example, experimental data histogram (blue bars) is fitted with an 
+aggregated model (green curve) and unfolded models (blue and red curves). Optimal parameter values are reported in the legend, for more details see [here](./BXNL/Readme.md).
 
 # Content<a name=content></a>
 
