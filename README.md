@@ -207,7 +207,7 @@ and now open it using `jupyter-notebook`
 This command will fire-up your web browser and open the `rosenbrock2d.ipynb` notebook, the window should be similar to
 
 
-![Notebook screenshot](images/screenshot.png)
+![Notebook screenshot](local_optimization/images/screenshot.png)
 
 
 
