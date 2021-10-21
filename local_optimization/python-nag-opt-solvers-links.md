@@ -52,7 +52,6 @@ NOMS solvers are identified with "handle_solve" prefix.
 
  * AS `e04nf (qp_dense_solve)` (convex, possibly also nonconvex)</br>
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.qp_dense_solve.html#naginterfaces.library.opt.qp_dense_solve</br>
-   Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.qpconvex2_sparse_solve_ex.main</br>
 
  * AS `e04nc (lsq_lincon_solve)` (convex)</br>
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.lsq_lincon_solve.html#naginterfaces.library.opt.lsq_lincon_solve</br>
