@@ -2,8 +2,10 @@
 
 # Local Optimization<a name=top></a>
 
-See full offering of solvers at https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html
-(modern solvers are identified with "handle_solve" prefix.)
+See full offering of solvers at 
+https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/indexes/optimization.html </br>
+(https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
+NOMS solvers are identified with "handle_solve" prefix.
 
 ## LP
 
