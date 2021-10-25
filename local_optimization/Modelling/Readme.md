@@ -1,5 +1,11 @@
 [![NAG Logo](../../nag_logo.png)](https://www.nag.com)
 
+# Dense Problem Examples
+Python examples for dense problems 
+
+* [Linear Programming (LP)](dense_lp_solve.py)
+* [Quadratic Programming (QP)](dense_qp_solve.py)
+
 # Modelling Optimization Problems
 
 In this folder you will find notebook examples, tips and tricks related to modeling optimization problems.
