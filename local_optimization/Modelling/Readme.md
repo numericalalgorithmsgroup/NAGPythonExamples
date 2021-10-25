@@ -3,8 +3,8 @@
 # Dense Problem Examples
 Python examples for dense problems 
 
-* [Linear Programming (LP)](dense_lp_solve.py)
-* [Quadratic Programming (QP)](dense_qp_solve.py)
+* [Linear Programming (LP)](dense_lp_solve_ex.py)
+* [Quadratic Programming (QP)](dense_qp_solve_ex.py)
 
 # Modelling Optimization Problems
 
