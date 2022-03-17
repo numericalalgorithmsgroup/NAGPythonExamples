@@ -7,6 +7,10 @@ https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/indexes/optimization.html </
 (https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
 NOMS solvers are identified with "handle_solve" prefix.
 
+
+Abbreviations used
+
+
 ## LP
 
 ### Sparse LP
@@ -61,7 +65,11 @@ NOMS solvers are identified with "handle_solve" prefix.
 
 ### Sparse
 
- * AS SQP (FD) `e04vh (nlp2_sparse_solve)`</br>
+ * SQP AS (FD) `e04sr (handle_solve_ssqp)` (Mark 28.3 / 28.4)</br>
+   Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.handle_solve_ssqp.html#naginterfaces.library.opt.handle_solve_ssqp</br>
+   Example: https://www.nag.com/numeric/py/nagdoc_latest/_modules/naginterfaces/library/examples/opt/handle_solve_ssqp_ex.html#main</br>
+
+ * SQP AS (FD) `e04vh (nlp2_sparse_solve)`</br>
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.nlp2_sparse_solve.html#naginterfaces.library.opt.nlp2_sparse_solve</br>
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.nlp2_sparse_solve_ex.main</br>
 
@@ -69,7 +77,7 @@ NOMS solvers are identified with "handle_solve" prefix.
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.handle_solve_ipopt.html#naginterfaces.library.opt.handle_solve_ipopt</br>
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_ipopt_ex.main</br>
 
- * CG AS (FD) (only bound constraints) `e04kf (handle_solve_bounds_foas)` (also works on dense)</br>
+ * Conjugate Gradient AS (FD) (only bound constraints) `e04kf (handle_solve_bounds_foas)` (also works on dense)</br>
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.handle_solve_bounds_foas.html#naginterfaces.library.opt.handle_solve_bounds_foas</br>
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_bounds_foas_ex.main</br>
    Demo: https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/FOAS</br>
@@ -79,13 +87,13 @@ NOMS solvers are identified with "handle_solve" prefix.
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.handle_solve_dfno_ex.main</br>
    Demo: https://github.com/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/DFO</br>
 
- * AS SQP `e04ug (nlp1_sparse_solve)`
+ * SQP AS `e04ug (nlp1_sparse_solve)`
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.nlp1_sparse_solve.html#naginterfaces.library.opt.nlp1_sparse_solve</br>
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.nlp1_sparse_solve_ex.main</br>
 
 ### Dense
 
- * AS SQP (FD) `e04uc (nlp1_solve)`</br>
+ * SQP AS (FD) `e04uc (nlp1_solve)`</br>
    Doc: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.nlp1_solve.html#naginterfaces.library.opt.nlp1_solve</br>
    Example: https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html#naginterfaces.library.examples.opt.nlp1_solve_ex.main</br>
 
