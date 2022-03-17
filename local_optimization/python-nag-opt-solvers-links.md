@@ -9,7 +9,7 @@ NOMS solvers are identified with "handle_solve" prefix.
 
 **Abbreviations used**
 
-|Abb     | Description  |
+|Abbreviation     | Description  |
 |--------|--------------|
 | (FD)   | Indicates the solver does not require the user to provide 1st order derivativas and in which case it will use a Finite-Difference method to estimate them |
 | (no-FD)| Indicates that the solver requires the user to provide derivates|
