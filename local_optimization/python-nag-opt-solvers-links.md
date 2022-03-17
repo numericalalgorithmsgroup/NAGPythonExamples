@@ -7,9 +7,21 @@ https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/indexes/optimization.html </
 (https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
 NOMS solvers are identified with "handle_solve" prefix.
 
+**Abbreviations used**
 
-Abbreviations used
-
+|Abb     | Description  |
+|--------|--------------|
+| (FD)   | Indicates the solver does not require the user to provide 1st order derivativas and in which case it will use a Finite-Difference method to estimate them |
+| (no-FD)| Indicates that the solver requires the user to provide derivates|
+| AS     | Active-Set Method
+| DFNO   | Derivative-Free Nonlinear Programming 
+| IPM    | Interior-Point Method
+| LP     | Linear Programming
+| NLP    | Nonlinear Programming
+| QCQP   | Quadratically-constrained Quadratic Programming
+| QP     | Quadratic Programming
+| SOCP   | Second-Order Cone Programming
+| SQP    | Sequential Quadratic Programming
 
 ## LP
 
