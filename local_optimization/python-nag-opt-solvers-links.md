@@ -12,7 +12,7 @@ NOMS solvers are identified with "handle_solve" prefix.
 |Abbreviation     | Description  |
 |--------|--------------|
 | (FD)   | Indicates the solver does not require the user to provide 1st order derivativas and in which case it will use a Finite-Difference method to estimate them |
-| (no-FD)| Indicates that the solver requires the user to provide derivates|
+| (no-FD)| Indicates that the solver requires the user to provide 1st or 2nd order derivatives|
 | AS     | Active-Set Method
 | DFNO   | Derivative-Free Nonlinear Programming 
 | IPM    | Interior-Point Method
