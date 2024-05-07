@@ -42,7 +42,7 @@ width="100" height="80px" alt="Data fitting Plot"/></a></td>
  
 # Useful Links
 * [Background to Optimization Methods](https://www.nag.com/numeric/nl/nagdoc_latest/flhtml/e04/e04intro.html#algorithms)
-* [Nag Blog](https://www.nag.com/content/nag-blog)
+* [NAG Insights](https://nag.com/insights/)
 
 <!-- When ready add links?
 * Blog-post: Introducing the NAG Optimization Modelling Suite (NOMS)
