@@ -10,7 +10,7 @@
 
 # Examples using the NAG Library for Python <a name=examples></a>
 
-This repository contains examples and demonstrations using the [NAG Library for Python](https://www.nag.com/nag-library-python).  The NAG Library for Python contains 1900+ functions spanning many areas of numerical computing and data science.
+This repository contains examples and demonstrations using the [NAG Library for Python](https://nag.com/nag-library/).  The NAG Library for Python contains 1900+ functions spanning many areas of numerical computing and data science.
 
 Designed to work alongside the open source Python packages, [Numpy](http://www.numpy.org/) and [Scipy](https://www.scipy.org/), The NAG Library for Python can augment your computational workflow in many areas.
 
@@ -106,7 +106,7 @@ The **two** important bits are the
  
  **Note** that the **product code** and **KUSARI ID** can be different from the previous example.
  
- With these, you are set to [contact NAG and request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library).
+ With these, you are set to [contact NAG and request a trial licence](https://nag.com/contact-us/).
  
  The trial licence is a plain text chunk similar to
  ```
@@ -268,7 +268,6 @@ The following links take you to the relevant section in the official documentati
 # Useful links<a name=links></a>
 
 * [NAG Library for Python Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
-* [Request a trial licence](https://www.nag.com/content/software-trials?product=NAG%20Library)
 * [Kusari licence module Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
 
 
