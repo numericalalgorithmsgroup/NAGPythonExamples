@@ -1,18 +1,18 @@
-![NAG Logo](./nag_logo.png)<a name=top></a>
+![nAG Logo](./nag_logo.png)<a name=top></a>
 
 # Content<a name=content></a>
 
-* [Examples using the NAG Library for Python](#examples)
-* [How to install the NAG Library for Python](#install)
+* [Examples using the *n*AG Library for Python](#examples)
+* [How to install the *n*AG Library for Python](#install)
 * [How to run the Jupyter notebook examples](#jupyter)
-* [List of Chapters in the NAG Library for Python](#chapters)
+* [List of Chapters in the *n*AG Library for Python](#chapters)
 * [Useful links](#links)
 
-# Examples using the NAG Library for Python <a name=examples></a>
+# Examples using the *n*AG Library for Python <a name=examples></a>
 
-This repository contains examples and demonstrations using the [NAG Library for Python](https://nag.com/nag-library/).  The NAG Library for Python contains 1900+ functions spanning many areas of numerical computing and data science.
+This repository contains examples and demonstrations using the [*n*AG Library for Python](https://nag.com/nag-library/).  The *n*AG Library for Python contains 1900+ functions spanning many areas of numerical computing and data science.
 
-Designed to work alongside the open source Python packages, [Numpy](http://www.numpy.org/) and [Scipy](https://www.scipy.org/), The NAG Library for Python can augment your computational workflow in many areas.
+Designed to work alongside the open source Python packages, [Numpy](http://www.numpy.org/) and [Scipy](https://www.scipy.org/), The *n*AG Library for Python can augment your computational workflow in many areas.
 
 ## Directory of GitHub examples
 
@@ -31,26 +31,26 @@ Designed to work alongside the open source Python packages, [Numpy](http://www.n
 
 ## Examples that ship with the product
 
-In addition to those presented here, The NAG Library for Python ships with a set of usage examples.  To see them all, run the following command
+In addition to those presented here, The *n*AG Library for Python ships with a set of usage examples.  To see them all, run the following command
 
 ```
 python -m naginterfaces.library.examples --locate
 ```
 
-# How to install the NAG Library for Python<a name=install></a>
+# How to install the *n*AG Library for Python<a name=install></a>
 
-In this section we illustrate how to install the NAG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
+In this section we illustrate how to install the *n*AG Library for Python, request a Trial Licence and make sure the Library is working. Details and further information regarding the installation can be found [here](https://www.nag.com/numeric/py/nagdoc_latest/readme.html#installation).
 
 **Note** Before starting make sure you have access to a host that has Python 3 (3.4 or more recent).
 
 ### Step 1. Downloading and installing
-Installing the NAG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the NAG Library
+Installing the *n*AG Library is done using the `pip` package manager, fire-up a terminal and create a Python 3 virtual environment where to install and test the *n*AG Library
 ```{bash}
 guest@nag-37:~$ python3 -m venv nag3
 guest@nag-37:~$ . nag3/bin/activate
 (nag3) guest@nag-37:~$
 ```
-Now use `pip` to install the NAG Library for Python
+Now use `pip` to install the *n*AG Library for Python
 ```{bash}
 (nag3) guest@nag-37:~$ python -m pip install --extra-index-url https://www.nag.com/downloads/py/naginterfaces_nag naginterfaces
 ```
@@ -79,7 +79,7 @@ The next step is to get the licensing info (**product code** and **KUSARI ID**) 
 ```
 The output should be similar to
 ```
-The NAG Library for Python on this platform uses
+The *n*AG Library for Python on this platform uses
 underlying Library NLL6I271VL.
 This Library has been installed as part of the package
 and it requires a valid licence key.
@@ -106,7 +106,7 @@ The **two** important bits are the
  
  **Note** that the **product code** and **KUSARI ID** can be different from the previous example.
  
- With these, you are set to [contact NAG and request a trial licence](https://nag.com/contact-us/).
+ With these, you are set to [contact *n*AG and request a trial licence](https://nag.com/contact-us/).
  
  The trial licence is a plain text chunk similar to
  ```
@@ -116,8 +116,8 @@ The **two** important bits are the
  
  The final step is to make sure the licence is valid and the library is working as expected.
  
-### Step 3. Testing the NAG Library
-The last step is to make sure the licence was correctly stored and that the NAG Library is working correctly. From the same virtual terminal re-run the Kusari licence module
+### Step 3. Testing the *n*AG Library
+The last step is to make sure the licence was correctly stored and that the *n*AG Library is working correctly. From the same virtual terminal re-run the Kusari licence module
 ```{bash}
 (nag3) guest@nag-37:~$ python -m naginterfaces.kusari
 ``` 
@@ -165,7 +165,7 @@ Run `python -m naginterfaces.library.examples --help` to see any additional usag
 # How to run the Jupyter notebook examples<a name=jupyter></a>
 
 This section briefly illustrates how to setup a host in order to open and run the [Jupyter notebooks](https://jupyter.org/) provided in this repository.
-Before running the notebooks make sure the [NAG Library is installed and working](#install). Before starting, it is advised to read [Jupyter's installation page](https://jupyter.org/install.html).
+Before running the notebooks make sure the [*n*AG Library is installed and working](#install). Before starting, it is advised to read [Jupyter's installation page](https://jupyter.org/install.html).
 
 <!-- You can [view a static render of the notebooks using Jupyter's nbviewer here](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/) 
 [![Jupyter](https://img.shields.io/badge/launch-nbviewer-blue?logo=jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/numericalalgorithmsgroup/NAGPythonExamples/tree/master/local_optimization/)
@@ -174,7 +174,7 @@ or alternatively use [Binder](https://mybinder.org/) to [view them here](https:/
 
 
 ### Installing Jupyter notebook
-To install Jupyter, launch a terminal and activate the virtual environment used to install the NAG Library for Python
+To install Jupyter, launch a terminal and activate the virtual environment used to install the *n*AG Library for Python
 ```{bash}
 guest@nag-37:~$ . nag3/bin/activate
 (nag3) guest@nag-37:~$ pip install notebook matplotlib
@@ -211,7 +211,7 @@ This command will fire-up your web browser and open the `rosenbrock2d.ipynb` not
 
 
 
-# List of Chapters in the NAG Library for Python<a name=chapters></a>
+# List of Chapters in the *n*AG Library for Python<a name=chapters></a>
 
 The following links take you to the relevant section in the official documentation
 
@@ -267,7 +267,7 @@ The following links take you to the relevant section in the official documentati
 
 # Useful links<a name=links></a>
 
-* [NAG Library for Python Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
+* [*n*AG Library for Python Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.library.opt.html)
 * [Kusari licence module Documentation](https://www.nag.com/numeric/py/nagdoc_latest/naginterfaces.kusari.html#kusari)
 
 
